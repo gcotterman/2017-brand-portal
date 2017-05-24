@@ -912,47 +912,8 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/css\/core-framework.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/extensions\/_home_page_extends.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_home_page_extends.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/extensions\/_sub_page_extends.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_sub_page_extends.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/extensions\/_sub_page_slide_show_extends.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_sub_page_slide_show_extends.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1139,19 +1100,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/extensions\/jquery_cycle_slide_show\/_all_slide_shows.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_all_slide_shows.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/sass\/extensions\/modular-scale\/lib\/modular-scale.rb": {
 		"ft": 8192,
 		"oA": 2,
@@ -1284,19 +1232,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_tests.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/extensions\/nouislider\/_nouislider.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_nouislider.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1600,7 +1535,20 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/partials\/01_navigation_header_footer\/_footer.scss": {
+	"\/assets\/sass\/partials\/_alerts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_alerts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/partials\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1613,7 +1561,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/partials\/01_navigation_header_footer\/_header.scss": {
+	"\/assets\/sass\/partials\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1626,7 +1574,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/partials\/02_home_page\/_home_page_global.scss": {
+	"\/assets\/sass\/partials\/_homepage.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1634,12 +1582,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_home_page_global.css",
+		"oAP": "\/assets\/css\/_homepage.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/partials\/02_home_page\/_home_page_global_old.scss": {
+	"\/assets\/sass\/partials\/_subpage.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1647,20 +1595,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_home_page_global_old.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/partials\/06_custom_apps\/_global_alerts.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_global_alerts.css",
+		"oAP": "\/assets\/css\/_subpage.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

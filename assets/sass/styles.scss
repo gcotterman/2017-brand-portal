@@ -1,4 +1,5 @@
 /* =========================================================
+  
 __________                           .___
 \______   \____________    ____    __| _/
  |    |  _/\_  __ \__  \  /    \  / __ | 
@@ -12,6 +13,7 @@ __________                           .___
 \____|__  /__|\___  >__|   \____/____  >__||__|  \___  >
         \/        \/                 \/              \/ 
 
+
 Author: Scott Patterson (SP)
 Site: https://Brand.IGT.com
 Version: 1.0
@@ -21,12 +23,32 @@ Date: 20170523
 
 @charset "UTF-8";
 
-// Import Core-Framework
-@import "core-framework";
+// Extensions
+@import "extensions/modular-scale/stylesheets/_modular-scale",
+        "extensions/font-awesome/font-awesome";
+
+// Settings
+@import "var/settings";
+
+// Lists and Icons
+@import "var/lists";
+
+// Compass
+@import "compass",
+				"compass/reset";
+
+// All Others
+@import "functions/all",
+        "base",
+        "fonts",
+        "typography",
+        "grid",
+        "ui/all",
+        "shame";
 
 // Header and Footer Naigation
-@import "partials/01_navigation_header_footer/_header";
+@import "partials/_header";
 
 // Partials - Home Page
-@import "partials/02_home_page/_home_page_global";
-@import "partials/06_custom_apps/_global_alerts";
+@import "partials/_homepage",
+        "partials/_alerts";

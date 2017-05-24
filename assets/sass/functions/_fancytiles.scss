@@ -2,7 +2,6 @@
   @return 100%/$colnum;
 }
 
-
 @mixin fancytiles($desktop-columns, $tablet-columns: $desktop-columns, $mobile-columns: 1, $small-break: 0px, $medium-break: $tablet-device-width, $large-break: $row-max-width) {
 
   // These styles apply to all shift-columns
@@ -25,5 +24,4 @@
   @include respond("min-width: #{$large-break}") {
     width: divide-cols($desktop-columns);
   }
-
 }

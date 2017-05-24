@@ -1,5 +1,4 @@
 // Fade Mixin
-
 $fade-duration: .6s;
 
 @mixin fade($direction: out, $duration: $fade-duration) {

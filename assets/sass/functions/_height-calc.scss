@@ -1,6 +1,4 @@
-
 // Calculate the height of an object based on its scale
-
 @function height-calc($size) {
   @return ms($ms-ratio, $size) + 1;
 }

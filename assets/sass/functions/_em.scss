@@ -1,5 +1,4 @@
 // Convert pixels to ems
-
 @function em($size-in-px, $context: 16) {
   @if not unitless($size-in-px) {
       $size-in-px: strip-units($size-in-px);

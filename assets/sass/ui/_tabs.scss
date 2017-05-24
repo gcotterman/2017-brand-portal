@@ -1,13 +1,9 @@
 /* Tabs */
-
-.tabs {
-	display: block;
-}
+.tabs {	display: block; }
 
 .tab-nav {
   margin: 0;
   padding: 0;
-  //border-bottom: 1px solid darken($default-color, 5%);
   
   > li {
     top: 1px;
@@ -17,8 +13,6 @@
     width: 24.2333%;
     text-align: center;
     cursor: default;
-    //width: auto;
-    
     
     > li {
       top: 1px;
@@ -37,21 +31,16 @@
         background: $newcoIGTLightestGrey;
         color: $white;
         cursor: pointer;
-        //border: 1px solid darken($default-color, 5%);
-        //border-width: 1px 1px 0 1px;
-        //text-shadow: 0 1px 1px lighten($default-color, 5%);
         
         &:hover {
           background: darken($newcoIGTBlue, 15);
           text-decoration: none;
-          //background: lighten($newcoIGTLightestGrey, 1%);
         }
         
         &:active {
           background: darken($default-color, 2%);
         }
         @include line-and-height-alt($tab-height);
-        //@include border-radius($button-radius $button-radius 0 0)
       }
       
       &.active > a {
@@ -64,9 +53,7 @@
       &:last-child {
         margin-right: 0;
       }
-      //@include box-shadow(0 1px 0 $white);
     }
-    //@include box-shadow(0 1px 0 $white);
   }
 }
 
@@ -83,28 +70,21 @@
   background: $newcoIGTLightestGrey;
   color: $white;
   cursor: pointer;
-  //border: 1px solid darken($default-color, 5%);
-  //border-width: 1px 1px 0 1px;
-  //text-shadow: 0 1px 1px lighten($default-color, 5%);
   
   &:hover {
     background: darken($newcoIGTLightestGrey, 15);
     text-decoration: none;
-    //background: lighten($newcoIGTLightestGrey, 1%);
   }
   
   &:active {
     background: darken($newcoIGTLightBlue, 15);
-    //background: darken($newcoIGTLightBlue, 2%);
-    //background: darken($default-color, 2%);   
   }
+  
   @include line-and-height-alt($tab-height);
-  //@include border-radius($button-radius $button-radius 0 0);
 }
 
 .tab-nav > li.active > a {
   @include line-and-height-alt($tab-height + 1);
-  // wireframe color? background: $newcoIGTLightBlue;
   background: $newcoIGTLightBlue;
 }
 
@@ -112,9 +92,8 @@
   @include border-radius($button-radius);
   display: table;
   overflow: hidden;
-  width: 100%; /* remove if you dont want the tabs to span the full container width */
-  //border: 1px solid darken($default-color, 5%);
-  
+  width: 100%;
+    
   > li {
     top: 0;
     display: table-cell;
@@ -167,10 +146,10 @@
       }
     }
   }
+  
   .tab-content {
     margin-left: -1px;
     padding: 10px 0 30px 20px;
     border-left: 1px solid darken($default-color, 5%);
   }
 }
-
