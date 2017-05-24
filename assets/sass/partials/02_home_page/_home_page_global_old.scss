@@ -1,0 +1,307 @@
+// ------------ LANDING PAGE
+
+[data-index="home"] {
+  background: $newcoIGTMediumBlue;
+  @include filter-gradient(#0c51a1, #0c51a1, horizontal); // Fallback support for IE6-9 (SP)
+  @include background-image(linear-gradient(left,  #0c51a1 0%,#1b9ddb 50%,#0c51a1 100%));
+  
+  //Global Typography
+  h2, h3, h4 ,p {
+    text-align: center;
+    color: $white;
+    padding: 0 0 15px 0;
+  }
+  
+  //h4 not used currently
+  h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  h2 {
+    font-size: 60px;
+    line-height: 60px;
+    
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+      font-size: 55px;
+      line-height: 55px;
+    }
+  }
+  
+  h3 {
+    font-size: 30px;
+    line-height: 30px;
+    
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+      font-size: 25px;
+      line-height: 25px;
+    }
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    max-width: 500px;
+    
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+     max-width: 300px; 
+    }
+  }
+  
+	.btn {
+		//margin: 5px 0 50px;
+		line-height: 40px;
+    height: 40px;
+    background: $newcoIGTDarkOrange;
+    
+		a {
+  		color: $white;
+      line-height: 40px;
+      height: 40px;
+      font-size: 18px;
+      padding: 0 20px;
+		}
+
+		/*--- Mobile portrait ---*/
+		@media only screen and (min-width : 320px) and (max-width : 480px) {
+	    line-height: 25px;
+      height: 25px;	  
+		  
+		  a {
+        line-height: 25px;
+        height: 25px;
+        font-size: 12px;
+        padding: 0 10px;
+		  }
+		}
+
+		/*--- Mobile landscape ---*/
+		@media only screen and (min-width : 481px) and (max-width : 595px) {
+	    line-height: 30px;
+      height: 30px;	  
+		  
+		  a {
+        line-height: 30px;
+        height: 30px;
+        font-size: 14px;
+        padding: 0 15px;
+		  }
+		}
+
+		/*--- Tablet portrait ---*/
+		@media only screen and (min-width : 691px) and (max-width : 800px) {
+	    line-height: 35px;
+      height: 35px;	  
+		  
+		  a {
+        line-height: 35px;
+        height: 35px;
+        font-size: 16px;
+        padding: 0 20px;
+		  }
+		}
+		
+		&.roll_again {
+  		background: $newcoIGTBlue;
+		}
+
+	}
+}
+
+// ------------ Z-Index
+
+.click_wrapper {      z-index: 25;  }
+.text_content {       z-index: 50;  }
+#more_info {          z-index: 100; }
+.more_info_button {   z-index: 200; }
+.animation_pane {     z-index: 225; }
+.top_text {           z-index: 250; }
+.bottom_text {        z-index: 250; }
+.top_text {           z-index: 250; }
+
+// ------------ Menu Overlay
+.more_info_button {
+	position: absolute;
+	//top: 50%; //for Safari
+	right: 0;
+	padding: 0;
+	margin: 0;
+	width: 90px;
+	height: 90px;
+	outline: none;
+	border: none;
+	//background: url(#{$get-path-to-images}header_menu.png) no-repeat;
+	background: none;
+	cursor: default;
+	-webkit-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+  &:before {
+  	cursor: pointer;
+  	position: absolute;
+  	top: 28px;
+  	right: 28px;
+  	color: $white;
+  	content: "\f057";
+  	font-size: 34px;
+  	font-family: FontAwesome;
+  	transition: all .5s ease-in-out;
+  }
+  
+  &:hover {
+    &::before {
+      color: $newcoIGTLightBlue;
+    }
+  }
+}
+
+// ------------  Modal Window
+#more_info {
+	position: fixed;
+	display: none;
+	//overflow: scroll; //causing border or empty scroll area
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	//background: url(#{$get-path-to-images}background_felt_pattern.jpg) repeat center center fixed;
+	background: $newcoIGTLightBlue !important;
+  //background: $newcoIGTMediumBlue;
+  //@include filter-gradient(#0c51a1, #0c51a1, horizontal); // Fallback support for IE6-9 (SP)
+  //@include background-image(linear-gradient(left,  #0c51a1 0%,#1b9ddb 50%,#0c51a1 100%));
+
+  .modal_wrapper {
+  	.modal_container {
+    	width: 100%;
+    	height: 90vh;
+      margin-top: 90px;
+  	  text-align: center;
+  	  position: relative;
+  		
+  		.top_text {
+    		position: absolute;
+    		top: 12vh;
+    		left: 0;
+    		width: 100%;
+    		
+    		@media only screen and (min-width : 320px) and (max-width : 800px) {
+      	  top: 10vh;	
+        }
+  		}
+  		
+  		.bottom_text {
+    		position: absolute;
+    		bottom: 20vh;
+    		left: 0;
+    		width: 100%;
+  		}
+  		
+  		.animation_pane {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		
+    		img {
+          display: block;
+          width: 100vw;
+          height: 100vh;
+          object-fit: contain;
+          
+      		@media only screen and (min-width : 320px) and (max-width : 800px) {
+        	  object-fit: cover;
+          }
+    		}
+  		}
+  	}
+  }
+}
+
+// ------------ Click Container
+
+.click_wrapper {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	  
+  .click_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    #container {
+      position: absolute;
+      bottom: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 80%;
+      background: url(#{$get-path-to-images}background_static_hand.png) no-repeat center bottom / contain;
+      transition: all .5s ease-in-out;
+      
+      @media only screen and (min-width : 320px) and (max-width : 800px) {
+        background: url(#{$get-path-to-images}background_static_hand_mobile.png) no-repeat center bottom / contain;  
+      }
+    }
+  }
+}
+
+// ------------ Text Area (SP)
+
+.text_content {
+  padding: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10vh;
+  min-height: 200px;
+  height: 200px;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+  
+  @media only screen and (min-width : 320px) and (max-width : 480px) {
+    min-height: 150px;
+    height: 150px;
+    max-width: none;    
+  }
+  
+  h2, h3 { text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); }
+}
+
+// ------------ AddThis Customization (SP)
+// ------------ Not in use currently (SP)
+
+#at4-share {
+  .at-share-close-control,
+  .at-share-open-control,
+  .at-svc-print,
+  .at-svc-compact { display: none !important; visibility: hidden !important; }
+}
+
+#at-share-dock {
+  background: white;
+  text-align: center;
+  
+  a { display: inline-block !important; }
+  
+  .at4-count,
+  .at-share-close-control,
+  .at-share-open-control,
+  .at-svc-print,
+  .at-svc-compact { display: none !important; visibility: hidden !important; }
+  
+  .at-svc-facebook,
+  .at-svc-twitter,
+  .at-svc-email {
+     width: 10% !important; 
+  }
+}

@@ -1,0 +1,828 @@
+/* Form Styles */
+
+@import "../functions/forms";
+
+
+form {
+  //margin: 0 0 18px;
+  label {
+    display: block;
+    @include font-size($norm);
+    @include adjust-leading-to(1);
+    cursor: pointer;
+    margin-bottom: 9px;
+    &.inline {
+      display: inline-block;
+      padding-right: 20px;
+    }
+  }
+  dt {
+    margin: 0;
+  }
+  textarea {
+    height: 150px;
+  }
+ 
+  //causing issues with body ULs (SP)
+  /*
+  ul, ul li {
+    margin-left: 0;
+    list-style-type: none;
+  }
+  */
+  
+  fieldset {
+    @include rhythm-borders(1px,1,$norm,solid);
+    @include border-radius($button-radius);
+    border-color: darken($default-color, 10%);
+    margin: 18px 0;
+    
+    legend {
+      padding: 5px 10px;
+    }
+    
+    
+  }
+}
+
+.field {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 10px;
+  vertical-align: top; // was midde (SP)
+  // Font-size 16px for weird form style error
+  font-size: 16px;
+  overflow: hidden;
+  &.metro, .metro {
+    @include border-radius(0);
+  }
+  input, input[type="*"], textarea {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+    font-family: $font-family;
+    font-weight: $font-weight-light;
+    @include font-size($norm);
+    @include box-shadow(none);
+    color: $newcoIGTDarkBlue;
+  }
+  .input {
+    position: relative;
+    padding: 0 10px;
+    background: #fff;
+    border: 1px solid darken($default-color, 10%);
+    color: $newcoIGTDarkBlue;
+    @include line-and-height(height-calc($norm));
+    @include font-size($norm);
+    //@include border-radius(4px);
+    @include border-radius($button-radius);
+    &.search {
+      @include line-and-height(height-calc($norm));
+      @include shape(oval);
+      padding-right: 0;
+    }
+  }
+  .input.textarea {
+    height: auto;
+  }
+}
+
+input, .input {
+  color: $newcoIGTDarkBlue;
+  @each $width in $field-sizes {
+    &.#{nth($width, 1)} {
+      @include input-size(#{nth($width, 1)});
+      margin:0;
+      &:last-child {
+        margin-left: -4px;
+      }
+      &:first-child {
+        margin-right: 3.94%;
+        margin-left: 0;
+      }
+      &:first-child:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
+
+label + {
+  @include input-sizes-list() {
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@include respond(document-width) {
+  .xxwide:first-child, .xxwide:last-child {
+    margin-right: 0%;
+  }
+}
+
+/* remove inline-block white-space — A 0px font-size = 0px of white space */
+.prepend, .append {
+  font-size: 0;
+  white-space: nowrap;
+  padding-bottom: 3.5px;
+}
+
+.prepend input,
+.prepend .input,
+.append input,
+.append .input {
+  display: inline-block;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.prepend input,
+.prepend .input,
+.prepend.append input:last-child,
+.append *:last-child {
+  @include border-radius(0px $button-radius $button-radius 0);
+}
+
+.append input,
+.append .input,
+.prepend.append input:first-child,
+.prepend *:first-child {
+  @include border-radius($button-radius 0 0 $button-radius);
+}
+
+.prepend.append input {
+  @include border-radius(0);
+}
+
+.prepend.append input:last-child {
+  margin-left: -1px;
+}
+
+.prepend .adjoined, .append .adjoined, .prepend .btn, .append .btn {
+  position: relative;
+  display: inline-block;
+  margin-bottom:0;
+  z-index: 99;
+}
+.prepend .btn, .append .btn {
+  a, input, button {
+    padding: 0 12px;
+  }
+}
+
+.prepend .adjoined, .append .adjoined  {
+  padding: 0 10px 0 10px;
+  background: $default-color;
+  border: 1px solid darken($default-color, 10%);
+  font-family: $font-family;
+  font-weight: $font-weight-semibold;
+  color: $body-font-color;
+  @include font-size($norm);
+  @include line-and-height(height-calc($norm));
+}
+
+.prepend .adjoined, .prepend .btn {
+  margin-right: -1px;
+}
+
+.adjoined:first-child {
+  margin-left: 0 !important;
+}
+
+.append .adjoined, .append .btn {
+  margin-left: -1px;
+}
+
+.append button, .prepend button {
+  display: inline-block;
+}
+
+.prepend input:first-child,
+.append input:first-child,
+.prepend .input:first-child,
+.append .input:first-child {
+  margin-right: 0;
+}
+
+.double input, .double .input {
+  width: 50% !important;
+  &:last-child {
+    margin-left: -1px;
+  }
+}
+
+.field {
+  input, .input, textarea, .textarea, .radio span, .checkbox span, .picker {
+    @include transition-duration(.2s);
+  }
+  @each $error in danger $danger-color, warning $warning-color, success $success-color {
+    &.#{nth($error, 1)} {
+      &:after {
+        @if($icons != ""){
+          //Converted to FA (SP)
+          font-family: "#{$icons}";
+          @if nth($error, 1) == danger {
+            //Converted to FA (SP)
+            content: '#{$fa-var-ban}';
+          }
+          @if nth($error, 1) == warning {
+            //Converted to FA (SP)
+            content: '#{$fa-var-exclamation-triangle}';
+          }
+          @if nth($error, 1) == success {
+            //Converted to FA (SP)
+            content: '#{$fa-var-check}';
+          }
+        font-size: $norm;
+        position: absolute;
+        top: percentage((strip-units($base-font-size)) / 100) - 2;
+        right: 15px;
+        z-index: 999;
+        color: nth($error, 2);
+        }
+      }
+
+      &.no-icon:after {
+        display: none;
+      }
+
+      // <input> does not allow :before & :after
+      // pseudo elements. Removing validation
+      // icons from those elements to avoid
+      // edge-case styling issues
+      &.append:after, &.prepend:after {
+        content: "";
+      }
+      input, .input, textarea, .textarea, .radio span, .checkbox span, .picker {
+        border-color: nth($error, 2);
+        background: lighten(nth($error, 2), 35%);
+      }
+
+      input, .input, textarea, .textarea,
+      .radio span, .checkbox span, .picker,
+      input::-webkit-input-placeholder,
+      textarea::-webkit-input-placeholder,
+      input:-moz-placeholder,
+      textarea:-moz-placeholder
+      textarea { color: nth($error, 2); }
+
+    }
+  }
+
+  .picker {
+    @each $error in danger $danger-color, warning $warning-color, success $success-color {
+      &.#{nth($error, 1)} {
+        border-color: nth($error, 2);
+        color: nth($error, 2);
+        background: lighten(nth($error, 2), 35%);
+        @include transition-duration(.2s);
+        select, &:after { color: nth($error, 2); }
+      }
+    }
+  }
+}
+
+
+.field .text input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+// checkboxes/radio buttons only styled where JS supported
+.no-js {
+  .radio input {
+    -webkit-appearance: radio;
+    margin-left: 1px;
+  }
+  .checkbox input {
+    -webkit-appearance: checkbox;
+  }
+  .radio input, .checkbox input {
+    display: inline-block;
+    width: 16px;
+  }
+}
+
+.js .field {
+  .radio, .checkbox {
+    @each $error in danger $danger-color, warning $warning-color, success $success-color {
+      &.#{nth($error, 1)} {
+        color: nth($error, 2);
+        @if nth($error, 1) == success {
+          color: $body-font-color;
+          i { color: nth($error, 2); }
+        }
+        span {
+          border-color: nth($error, 2);
+          color: nth($error, 2);
+          background: lighten(nth($error, 2), 35%);
+          @include transition-duration(.2s);
+        }
+      }
+    }
+    position: relative;
+    &.checked i {
+      position: absolute;
+      top: -1px;
+      left: -8px;
+      line-height: 16px;
+    }
+    span {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      position: relative;
+      top: 2px;
+      border: solid 1px #ccc;
+      background: #fefefe;
+    }
+    input[type="radio"], input[type="checkbox"] {
+      display: none;
+    }
+  }
+  .radio span {
+    @include border-radius(8px);
+  }
+  .checkbox span {
+    @include border-radius(3px);
+  }
+}
+
+.field .text input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+
+/* Form Picker Element (<select>) */
+
+.picker {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  margin: 0 0 2px 1.2%;
+  overflow: hidden;
+  border: 1px solid darken($default-color, 5%);
+  @include border-radius(4px);
+  font-family: $font-family;
+  font-weight: $font-weight-semibold;
+  height: auto;
+  @include background-image(linear-gradient(lighten($default-color, 20%), $default-color));
+  &:after {
+    content: '#{$fa-var-caret-down}';
+    font-family: $icons;
+    z-index: 0;
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    margin-top: -12px;
+    color: $body-font-color;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+  select {
+    position: relative;
+    display: block;
+    min-width: 100%;
+    width: 135%;
+    height: 34px;
+    padding: 6px 45px 6px 15px;
+    color: $body-font-color;
+    border: none;
+    background: transparent;
+    outline: none;
+    -webkit-appearance: none;
+    z-index: 99;
+    cursor: pointer;
+    @include font-size($norm);
+  }
+  select::-ms-expand {
+    display: none;
+  }
+}
+
+//////////---------------------------------------------//////////
+//////////---------- Web Forms for Marketers ----------//////////
+//////////---------------------------------------------//////////
+
+/////-----------------------/////
+/////----- Default.css -----/////
+/////-----------------------/////
+
+.scfForm input, .scfForm select, .scfForm textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.scChromeDataHolder { display:block; }
+.scfForm textarea { resize: none; }
+
+.scfForm {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  
+  input, input[type="*"], textarea {
+    position: relative !important;
+    padding: 0 10px !important;
+    background: #fff !important;
+    border: 1px solid darken($default-color, 10%) !important;
+    color: $newcoIGTDarkBlue !important;
+    font-family: $font-family;
+    font-weight: $font-weight-light;
+    @include line-and-height(height-calc($norm));
+    @include font-size($norm);
+    @include border-radius($button-radius);
+  }
+  
+  input[type="submit"] {
+    background: $newcoIGTMediumBlue !important;
+    color: $white !important;
+    border-color: $newcoIGTMediumBlue !important;
+    cursor: pointer;
+    font-family: $font-family;
+    font-weight: $font-weight-light;
+    -webkit-appearance: none !important;
+  }
+}
+
+.scfTitleBorder {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #000000;
+  font-family: Arial,Tahoma,Helvetica,sans-serif;
+  font-size: 1.8em;
+  line-height: 1.1em;
+  margin: 5px 0pt;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.scfIntroBorder {}
+.scfFooterBorder {}
+.scfSubmitButtonBorder {}
+.scfSubmitButton {}
+.scfError {}
+.scfValidationSummary { /* margin-left : 20px; */ }
+
+.scfValidatorRequired, .scfRequired {
+  //margin: 0px 0px;
+  //float: right;
+}
+
+.scfValidator {
+  margin: 0px;
+  display: block;
+  float: left;
+}
+
+.scfSectionBorderAsFieldSet {
+  //padding: 0px 15px 15px 15px;
+  //border: 0px;
+  //border-top: solid 2px;
+  //margin: 0px 30px;
+}
+
+.scfSectionLegend {
+  //padding: 7px 13px 8px 13px;
+  //font-weight: bold;
+  //text-decoration: none;
+  //margin-left: 20px;
+}
+
+.scfSectionBorder {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.scfSectionContent {
+  width: 100%;
+  float: left;
+}
+
+.scfSectionUsefulInfo {
+  width: 100%;
+  //padding: 5px 0px 0px 20px;
+  vertical-align: top;
+  display: inline;
+}
+
+.scfCheckboxBorder {
+  clear: left;
+  text-align: left;
+  display: block;
+  margin: 5px 0px;
+  width: 100%;
+}
+
+.scfCheckbox {
+  width: 90%;
+  display: block;
+  padding: 0px 0px;
+  margin: 0px;
+}
+
+.scfCheckboxUsefulInfo {
+  font-size: 0.9em;
+  display: block;
+  width: 90%;
+  padding: 0px 3px;
+}
+
+.scfLabel {
+  width: 100%;
+  display: block;
+}
+
+.scfListBox, .scfDropList {
+  width: 100%;
+  margin: 0px;
+}
+
+.scfListBoxGeneralPanel, .scfDropListGeneralPanel {
+  width: 60%;
+  display: block;
+  float: left;
+}
+
+.scfMultipleLineTextBox {
+  width: 100%;
+  margin: 0px;
+}
+
+.scfDropListBorder, .scfEmailBorder, .scfMultipleLineTextBorder, .scfSingleLineTextBorder, .scfPasswordBorder, .scfNumberBorder, .scfDatePickerBorder, .scfDateBorder, .scfRadioButtonListBorder, .scfListBoxBorder, .scfCheckBoxListBorder, .scfFileUploadBorder, .scfDateSelectorBorder, .scfCreditCardBorder, .scfConfirmPasswordBorder, .scfCaptchaBorder, .scfTelephoneBorder, .scfSmsTelephoneBorder {
+  clear: left;
+  text-align: left;
+  display: block;
+  margin: 5px 0px;
+  width: 100%;
+  vertical-align: top;
+}
+
+.scfEmailTextBox, .scfSingleLineTextBox, .scfPasswordTextBox, .scfNumberTextBox, .scfDatePickerTextBox, .scfDateTextBox, .scfRadioButtonList, .scfListBox, .scfCheckBoxList, .scfFileUpload, .scfCreditCardTextBox, .scfCreditCardType, .scfConfirmPasswordTextBox, .scfTelephoneTextBox, .scfSmsTelephoneTextBox {
+  width: 100%;
+  margin: 0px;
+}
+
+.scfDropListLabel, .scfEmailLabel, .scfMultipleLineTextLabel, .scfSingleLineTextLabel, .scfPasswordLabel, .scfNumberLabel, .scfDatePickerLabel, .scfDateLabel, .scfRadioButtonListLabel, .scfCheckBoxListLabel, .scfListBoxLabel, .scfFileUploadLabel, .scfDateSelectorLabel, .scfCreditCardLabel, .scfConfirmPasswordLabel, .scfCaptchaLabel, .scfTelephoneLabel, .scfSmsTelephoneLabel {
+  padding: 3px 0px;
+  width: 30%;
+  display: block;
+  float: left;
+  clear: both;
+}
+
+.scfEmailGeneralPanel, .scfMultipleLineGeneralPanel, .scfSingleLineGeneralPanel, .scfPasswordGeneralPanel, .scfNumberGeneralPanel, .scfDatePickerGeneralPanel, .scfDateGeneralPanel, .scfRadioButtonListGeneralPanel, .scfCheckBoxListGeneralPanel, .scfFileUploadGeneralPanel, .scfDateSelectorGeneralPanel, .scfCreditCardGeneralPanel, .scfConfirmPasswordGeneralPanel, .scfCaptchaGeneralPanel, .scfTelephoneGeneralPanel, .scfSmsTelephoneGeneralPanel {
+  //margin: 0px 3px;
+  padding: 0px 2px 0px 0px;
+  width: 60%;
+  display: block;
+  float: left;
+}
+
+.scfDropListUsefulInfo, .scfEmailUsefulInfo, .scfMultipleLineTextUsefulInfo, .scfSingleLineTextUsefulInfo, .scfPasswordUsefulInfo, .scfNumberUsefulInfo, .scfDatePickerUsefulInfo, .scfDateUsefulInfo, .scfRadioButtonListUsefulInfo, .scfListBoxUsefulInfo, .scfCheckBoxListUsefulInfo, .scfFileUploadUsefulInfo, .scfDateSelectorUsefulInfo, .scfCreditCardTextUsefulInfo, .scfConfirmPasswordUsefulInfo, .scfCaptchaUsefulInfo, .scfTelephoneUsefulInfo, .scfSmsTelephoneUsefulInfo {
+  padding-left: 3px;
+  font-size: 0.9em;
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.scfDateSelectorDay, .scfDateSelectorMonth, .scfDateSelectorYear {
+  width: 33%;
+  margin: 0px;
+}
+
+.scfDateSelectorLabel { margin-top: 7px; }
+
+.scfDateSelectorShortLabelDay, .scfDateSelectorShortLabelMonth, .scfDateSelectorShortLabelYear {
+  padding: 0px 0px 1px 0px;
+  margin: 0px;
+  display: block;
+  float: left;
+  font-size: xx-small;
+  line-height: 10px;
+  width: 33%;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.scfCreditCardType { width: 100%; }
+.scfCaptchaLabelText { width: 180px; }
+.scfCaptcha img { border: 1px solid black; }
+.scfCaptchaTextBox { width: 100%; }
+
+.scfCaptchStrongTextPanel {
+  width: 180px;
+  display: block;
+  float: left;
+}
+
+.scfCaptchaLimitGeneralPanel { width: 215px; }
+.scfCaptchaLimitGeneralPanel .scfRequired, .scfCaptchaLimitGeneralPanel .scfValidatorRequired { /* float: right; */ }
+
+.scfCaptchaGeneralPanel embed {
+  position: absolute;
+  z-index: -10;
+}
+
+.scfCaptchaGeneralPanel td br {
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.scfCaptchaGeneralPanel td input { margin-left: 20px; }
+.scfCaptchaGeneralPanel table { margin-top: 30px; }
+
+.scfShortDate {
+  clear: left;
+  text-align: left;
+  display: block;
+  margin: 5px 0px;
+  vertical-align: top;
+  width: 60%;
+}
+
+.scfShortText {
+  margin: 0px;
+  float: right;
+  width: 40%;
+}
+
+.scfShortDate .scfDateSelectorLabel {
+  width: 50%;
+  margin-top: 0px;
+}
+
+.scfShortDate .scfDateSelectorGeneralPanel { width: 46%; }
+.scfShortDate .scfDateSelectorDay, .scfShortDate .scfDateSelectorShortLabelDay, .scfShortDate .scfDateSelectorShortLabelMonth, .scfShortDate .scfDateSelectorShortLabelYear { display: none; }
+.scfShortDate .scfDateSelectorShortLabelMonth, .scfShortDate .scfDateSelectorShortLabelYear, .scfShortDate .scfDateSelectorMonth, .scfShortDate .scfDateSelectorYear { width: 49%; }
+.scfShortText .scfSingleLineTextLabel { width: 15%; }
+.scfShortText .scfSingleLineGeneralPanel { width: 60%; }
+.scfShortText .scfSingleLineTextUsefulInfo {}
+
+.scfShortText .scfSingleLineTextBox {
+  width: 100%;
+  margin: 0px;
+}
+
+.scWfmPassword { /* behavior: url(/sitecore%20modules/shell/Web%20Forms%20for%20Marketers/themes/autocomplete.htc?v=17072012); */ }
+
+.scfDatePickerGeneralPanel .ui-icon {
+  float : right;
+  position: relative;
+  top: -20px;
+  display:block;
+}
+
+/////--------------------------------/////
+/////----- Default.css (COLORS) -----/////
+/////--------------------------------/////
+
+.scfForm                                                                {}
+.scfTitleBorder                                                         { color: #000000; }
+.scfIntroBorder                                                         {}
+.scfFooterBorder                                                        {}
+.scfSubmitButtonBorder                                                  {}
+.scfSubmitButton                                                        {}
+.scfError, .scfValidationSummary, .scfValidatorRequired, .scfValidator  { color: $danger-color; }
+.scfRequired                                                            { /* color: #000000; */ }
+.scfSectionBorderAsFieldSet                                             { /* border-top-color: #000000; */ }
+.scfSectionLegend                                                       { /* color: #000000; */ }
+.scfSectionBorder                                                       {}
+.scfSectionContent                                                      {}
+.scfSectionUsefulInfo                                                   {}
+.scfCheckboxBorder                                                      {}
+.scfCheckbox                                                            {}
+.scfCheckboxUsefulInfo                                                  { color: silver; }
+.scfDropListBorder                                                      {}
+.scfDropListLabel                                                       {}
+.scfDropList                                                            {}
+.scfDropListUsefulInfo                                                  { color: silver; }
+.scfEmailBorder                                                         {}
+.scfEmailLabel                                                          {}
+.scfEmailTextBox                                                        {}
+.scfEmailUsefulInfo                                                     { color: silver; }
+.scfLabel                                                               {}
+.scfMultipleLineTextBorder                                              {}
+.scfMultipleLineTextBox                                                 {}
+.scfMultipleLineTextLabel                                               {}
+.scfMultipleLineTextUsefulInfo                                          { color: silver; }
+.scfPasswordBorder                                                      {}
+.scfPasswordTextBox                                                     {}
+.scfPasswordLabel                                                       {}
+.scfPasswordUsefulInfo                                                  { color: silver; }
+.scfSingleLineTextBorder                                                {}
+.scfSingleLineTextBox                                                   {}
+.scfSingleLineTextLabel                                                 {}
+.scfSingleLineTextUsefulInfo                                            { color: silver; }
+.scfNumberBorder                                                        {}
+.scfNumberTextBox                                                       {}
+.scfNumberLabel                                                         {}
+.scfNumberUsefulInfo                                                    { color: silver; }
+.scfDatePickerTextBox                                                   {}
+.scfDatePickerUsefulInfo                                                { color: silver; }
+.scfDatePickerLabel                                                     {}
+.scfDateBorder                                                          {}
+.scfDateTextBox                                                         {}
+.scfDateLabel                                                           {}
+.scfDateUsefulInfo                                                      { color: silver; }
+.scfRadioButtonListBorder                                               {}
+.scfRadioButtonList                                                     {}
+.scfRadioButtonListLabel                                                {}
+.scfRadioButtonListUsefulInfo                                           { color: silver; }
+.scfListBoxBorder                                                       {}
+.scfListBox                                                             {}
+.scfListBoxLabel                                                        {}
+.scfListBoxUsefulInfo                                                   { color: silver; }
+.scfCheckBoxListBorder                                                  {}
+.scfCheckBoxList                                                        {}
+.scfCheckBoxListLabel                                                   {}
+.scfCheckBoxListUsefulInfo                                              { color: silver; }
+.scfFileUploadBorder                                                    {}
+.scfFileUpload                                                          {}
+.scfFileUploadLabel                                                     {}
+.scfFileUploadUsefulInfo                                                { color: silver; }
+.scfCreditCardTextUsefulInfo, .scfConfirmPasswordUsefulInfo,
+.scfDateSelectorUsefulInfo, .scfCaptchaUsefulInfo,
+.scfTelephoneUsefulInfo, .scfSmsTelephoneUsefulInfo                     { color: silver; }
+.scfDateSelectorShortLabelDay, .scfDateSelectorShortLabelMonth,
+.scfDateSelectorShortLabelYear                                          { color: #000000; }
+.ui-widget                                                              { font-size: 10px; }
+
+/////----------------------/////
+/////----- Custom.css -----/////
+/////----------------------/////
+
+.halfAvailableWidth {
+  float:left;	
+  text-align: left;
+  display: inline;
+  margin: 5px 0px;
+  width: 50%;
+  vertical-align: top;
+}
+
+.thirdAvailableWidth {
+	float:left;	
+	text-align: left;
+	display: inline;
+	margin: 5px 0px;
+	width: 33%;
+	vertical-align: top;
+}
+
+.halfLeft { width:50%; }
+
+.halfRight {
+	width:50%;
+	float:right;
+}
+
+.halfLeft .scfSectionBorderAsFieldSet,
+.halfRight .scfSectionBorderAsFieldSet {
+	margin: 0px;
+	padding: 0px;	
+	border-width: 0px ;
+}
+
+.halfLeft .scfEmailGeneralPanel, ,.halfLeft .scfMultipleLineGeneralPanel, .halfLeft .scfSingleLineGeneralPanel, .halfLeft .scfPasswordGeneralPanel, .halfLeft .scfNumberGeneralPanel, .halfLeft .scfDatePickerGeneralPanel, .halfLeft .scfDateGeneralPanel, .halfLeft .scfRadioButtonListGeneralPanel, .halfLeft .scfCheckBoxListGeneralPanel, .halfLeft .scfFileUploadGeneralPanel, .halfLeft .scfDateSelectorGeneralPanel, .halfRight .scfEmailGeneralPanel, .halfRight .scfMultipleLineGeneralPanel, .halfRight .scfSingleLineGeneralPanel, .halfRight .scfPasswordGeneralPanel, .halfRight .scfNumberGeneralPanel, .halfRight .scfDatePickerGeneralPanel, .halfRight .scfDateGeneralPanel, .halfRight .scfRadioButtonListGeneralPanel, .halfRight .scfCheckBoxListGeneralPanel, .halfRight .scfFileUploadGeneralPanel, .halfRight .scfDateSelectorGeneralPanel {
+	margin: 0px;
+	width: 80%;
+	display: block;
+	float:left;
+	margin-bottom:10px;
+}
+
+
+.halfLeft .scfDropListBorder, .halfLeft .scfEmailBorder, .halfLeft .scfMultipleLineTextBorder, .halfLeft .scfSingleLineTextBorder, .halfLeft .scfPasswordBorder, .halfLeft .scfNumberBorder, .halfLeft .scfDatePickerBorder, .halfLeft .scfDateBorder, .halfLeft .scfRadioButtonListBorder, .halfLeft .scfListBoxBorder, .halfLeft .scfCheckBoxListBorder, .halfLeft .scfFileUploadBorder, .halfRight .scfDropListBorder, .halfRight .scfEmailBorder, .halfRight .scfMultipleLineTextBorder, .halfRight .scfSingleLineTextBorder, .halfRight .scfPasswordBorder, .halfRight .scfNumberBorder, .halfRight .scfDatePickerBorder, .halfRight .scfDateBorder, .halfRight .scfRadioButtonListBorder, .halfRight .scfListBoxBorder, .halfRight .scfCheckBoxListBorder, .halfRight .scfFileUploadBorder {
+	text-align: left;
+	display: block;
+	margin: 0px;
+	width: 100%;
+	vertical-align: top;
+}
+
+.halfLeft .scfDropListLabel, .halfLeft .scfEmailLabel, .halfLeft .scfMultipleLineTextLabel, .halfLeft .scfSingleLineTextLabel, .halfLeft .scfPasswordLabel, .halfLeft .scfNumberLabel, .halfLeft .scfDatePickerLabel, .halfLeft .scfDateLabel, .halfLeft .scfRadioButtonListLabel, .halfLeft .scfCheckBoxListLabel, .halfLeft .scfListBoxLabel, .halfLeft .scfFileUploadLabel, .halfLeft .scfDateSelectorLabel, .halfRight .scfDropListLabel, .halfRight .scfEmailLabel, .halfRight .scfMultipleLineTextLabel, .halfRight .scfSingleLineTextLabel, .halfRight .scfPasswordLabel, .halfRight .scfNumberLabel, .halfRight .scfDatePickerLabel, .halfRight .scfDateLabel, .halfRight .scfRadioButtonListLabel, .halfRight .scfCheckBoxListLabel, .halfRight .scfListBoxLabel, .halfRight .scfFileUploadLabel, .halfRight .scfDateSelectorLabel {
+	padding-bottom : 0px;
+}
+
+.halfLeft .scfValidator, .halfRight .scfValidator {
+	margin: 0px;
+	display:block;
+	font-size :0.8em;
+	position:absolute;
+}
+
+.halfLeft .scfValidatorRequired, .halfLeft .scfRequired, .halfRight .scfValidatorRequired, .halfRight .scfRequired { float: left; }

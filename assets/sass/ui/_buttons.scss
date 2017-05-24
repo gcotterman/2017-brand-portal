@@ -1,0 +1,141 @@
+// Buttons
+@import "../functions/button-size";
+
+// Global Submit Overide
+// For Support Apps Only??
+
+input[type="submit"] {
+  position: relative !important;
+  padding: 0 10px !important;
+  //height: 35.85532px; MORE PROGOMATIC NOW (SP)
+  //line-height: 33.85532px; MORE PROGOMATIC NOW (SP)
+  @include line-and-height-alt($default-button-height);
+  //border: 1px solid #d5d5d5 !important; THIS IS NOT ON ANY OTHER BUTTON, REMOVED (SP)
+  //border-color: $newcoIGTMediumBlue !important; THIS IS NOT ON ANY OTHER BUTTON, REMOVED (SP)
+  border: none !important;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background: $newcoIGTMediumBlue !important;
+  color: $white !important;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: "Lato";
+  cursor: pointer;
+  -webkit-appearance: none !important;
+  
+  &:hover { background: $newcoIGTYellow !important; }
+}
+
+// Nice disabled state for all buttons that are disabled (used for support apps) (SP)
+input[type="submit"][disabled="disabled"] {
+  background: $newcoIGTLightestGrey !important;
+  cursor: not-allowed !important;
+  
+  &:hover { background: $newcoIGTLightestGrey; }
+}
+
+// Button structure
+
+.btn, .skiplink {
+  display: inline-block;
+  width: auto;
+  background: $newcoIGTMediumBlue;
+  -webkit-appearance: none;
+  text-align: center;
+  @include border-radius($button-radius);
+  cursor: pointer !important;
+  position: relative;
+  
+  a:-webkit-any-link { cursor: pointer; } 
+
+  > a, input, button {
+    display: block;
+    padding: 0 $default-button-padding;
+    color: $white;
+    height: 100%;
+  }
+
+  input, button {
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 100%;
+    cursor: pointer;
+    font-weight: $type-font-weight;
+    text-align: center;
+     @include appearance(none);
+  } 
+  
+  &:hover { background: $newcoIGTYellow; }
+}
+
+// Button Shapes & Sizes
+.btn, .skiplink {
+  
+  &.xlarge { @include button-size(xlarge); }
+  &.large { @include button-size(large); }
+  
+  &.medium {
+    @include button-size(medium);
+    
+    a { padding: 0 ms(1); }
+  }
+  
+  &.small {
+    @include button-size(small);
+    a {
+      padding: 0 ms(-1);
+    }
+  }
+}
+
+.btn,
+.skiplink {
+
+  &.default {
+    background: $newcoIGTMediumBlue;
+    color: $white;
+    
+    &:hover { 
+      background: $newcoIGTYellow;
+      color: $white;
+    }    
+  }
+  
+  &.primary {
+    background: $newcoIGTLightestGrey;
+    color: $white;
+    
+    &:hover { 
+      background: lighten($newcoIGTLightestGrey, 10);
+      color: $white;
+    }
+  }
+  
+  &.secondary {
+    background: $newcoIGTLightBlue;
+    color: $white;
+    
+    &:hover { 
+      background: lighten($newcoIGTLightBlue, 10);
+      color: $white;
+    }
+  }
+}
+
+
+// IGT Buttons
+.btn {
+  // Full Width Button
+  &.full_width {
+    display: block;
+    width: 100%;
+  }
+  
+  // Small Text Button
+  &.small_text {
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+  }
+}

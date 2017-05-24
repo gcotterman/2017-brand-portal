@@ -1,0 +1,10 @@
+@mixin responsive-image($filename, $extension, $width, $height) {
+  background: url('#{$get-path-to-images}#{$filename}.#{$extension}') no-repeat 0 0;
+  width: $width;
+  height: $height;
+  
+  @media (-webkit-min-device-pixel-ratio: 1.25) {
+    background: url('#{$get-path-to-images}#{$filename}@2x.#{$extension}') no-repeat 0 0;
+    background-size: $width $height;
+  }
+}

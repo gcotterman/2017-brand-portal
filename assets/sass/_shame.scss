@@ -1,0 +1,84 @@
+/* SHAME */
+
+// -------------------- IE8
+
+html.ie8 {
+	height: 100%;
+	width: 100%;
+
+	//double input field fix
+	.xxwide,
+	.xwide,
+	.wide,
+	.normal,
+	.narrow,
+	.xnarrow {
+		display: inline;
+		&+input {
+			display: inline;
+			margin: 0 0 0 -.25em;
+		}
+	}
+
+	#more_info {
+		background: #ffffff;
+	}
+
+	.logo {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		background: url("#{$get-path-to-images}header_logo.png") no-repeat center 0;
+		height: 126px;
+		width: 545px;
+		z-index: 300;
+		text-indent: -99999px;
+	}
+}
+
+// -------------------- IE9
+
+.ie9 {
+	// IE9 checkbox fix
+	.radio.checked i,
+	.checkbox.checked i {
+		top: 0;
+	}
+
+	#more_info {
+		background: #ffffff;
+	}
+
+	.logo {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		background: url("#{$get-path-to-images}header_logo.png") no-repeat center 0;
+		height: 126px;
+		width: 545px;
+		z-index: 300;
+		text-indent: -99999px;
+	}
+
+
+// ----- Mosaic End
+}
+
+
+// -------------------- IE9 For Game Details / Marketing Downloads
+
+html.ie9 {
+  display: block;
+
+}
+
+//------ AddThis ------
+
+.at3lblight {
+  background-image: none !important;
+  background: $black !important;
+	opacity: .90  !important;
+	filter: Alpha(Opacity=90) !important;
+}

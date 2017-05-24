@@ -1,0 +1,413 @@
+// ------------ LANDING PAGE
+
+%transistion_out {
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+}
+
+%transistion_in {
+  transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+}
+
+[data-index="home"] {
+  background: $newcoIGTMediumBlue;
+  @include filter-gradient(#0c51a1, #0c51a1, horizontal); // Fallback support for IE6-9 (SP)
+  @include background-image(linear-gradient(left,  #0c51a1 0%,#1b9ddb 50%,#0c51a1 100%));
+
+  //Global Typography
+  h2, h3 ,p {
+    text-align: center;
+    color: $white;
+    padding: 0 0 15px 0;
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 60px;
+
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 30px;
+
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+      font-size: 20px;
+      line-height: 20px;
+      padding: 0 35px 15px 35px;
+    }
+    
+    @media only screen and (min-width : 320px) and (max-width : 374px) {
+      font-size: 18px;
+      line-height: 18px;
+      padding: 0 25px 15px 25px;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 0;
+
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+     max-width: 250px;
+     font-size: 12px;
+     line-height: 16px;
+    }
+  }
+
+	.btn {
+		//margin: 5px 0 50px;
+		line-height: 40px;
+    height: 40px;
+    @include border-radius(20px);
+    background: $newcoIGTDarkOrange;
+    font-family: 'Verlag A', 'Verlag B', Arial, sans-serif;
+    margin-bottom: 10px;
+    @extend %transistion_in;
+
+    &:hover {
+      @extend %transistion_out;
+      background: $newcoIGTOrange;
+    }
+
+    &.roll_again {
+      background: $newcoIGTBlue;
+      margin-left: 5px;
+      margin-bottom: 0;
+      
+      @media only screen and (min-width : 320px) and (max-width : 374px) {
+        margin: 0;
+      }
+
+      &:hover { background: $newcoIGTLightBlue; }
+      a:hover { color: $newcoIGTBlue !important; }
+    }
+
+    &.loading {
+      background: $newcoIGTLightGrey !important;
+      cursor: wait !important;
+      pointer-events: none !important;
+
+      a { cursor: wait !important; }
+    }
+
+		a {
+  		color: $white;
+      line-height: 40px;
+      height: 40px;
+      font-size: 18px;
+      padding: 0 20px;
+		}
+
+		/*--- Mobile portrait ---*/
+
+		@media only screen and (min-width : 320px) and (max-width : 600px) {
+	    line-height: 35px;
+      height: 35px;
+      @include border-radius(18px);
+
+		  a {
+        line-height: 35px;
+        height: 35px;
+        font-size: 16px;
+        padding: 0 15px;
+		  }
+		}
+	}
+}
+
+// ------------ Z-Index
+
+.application       {  z-index: 100; }
+.animation_pane    {  z-index: 200; }
+.top_right         {  z-index: 250; }
+.bottom_left       {  z-index: 250; }
+.intro_text        {  z-index: 300; }
+.intro_button      {  z-index: 300; }
+.message_container {  z-index: 300; }
+
+// ------------  Modal Window
+.application {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+  .application_wrapper {
+  	.application_container {
+    	width: 100%;
+    	height: 90vh;
+      margin-top: 90px;
+  	  text-align: center;
+  	  position: relative;
+
+  	  // iPhone 5 tweak
+  		@media only screen and (min-width : 320px) and (max-width : 374px) {
+				margin-top: 70px;
+			}
+
+  		.intro_text {
+    		position: absolute;
+    		top: 4vh; //was 7vh
+    		left: 0;
+    		width: 100%;
+
+    		.games_image {
+      		max-width: 800px;
+      		padding-top: 10px;
+        }
+
+    		@media ( max-height: 1200px ) {
+      		.games_image { max-width: 600px; }
+        }
+
+    		@media only screen and (min-width : 320px) and (max-width : 800px) {
+      	  top: 5vh;
+
+      		.games_image { max-width: 250px; }
+    		}
+  		}
+
+  		.intro_button {
+    		position: absolute;
+    		margin: 0 auto;
+    		bottom: 15vh;
+    		left: 0;
+    		right: 0;
+    		cursor: pointer;
+
+    		@media only screen and (min-width : 375px) and (max-width : 450px) {
+	    		bottom: 20vh;
+	    	}
+
+    		@media only screen and (min-width : 320px) and (max-width : 374px) {
+	    		bottom: 20vh;
+	    	}
+
+    		a {
+      		font-size: 35px;
+      		height: 75px;
+      		line-height: 67px; //-8 offest for Verlag funky height (SP)
+      		font-family: 'Verlag A', 'Verlag B', Arial, sans-serif;
+      		background: $newcoIGTDarkOrange;
+      		border: 4px solid $newcoIGTOrange;
+      		@include border-radius(38px);
+      		@include text-shadow(rgba($black, 0.5) 1px 1px 1px);
+      		@include box-shadow(rgba($black, 0.75) 0 0 65px);
+      		display: inline-block;
+      		margin: 0;
+      		padding: 0 50px;
+      		color: $white;
+      		opacity: 0.95;
+      		@extend %transistion_out;
+      		cursor: pointer;
+
+      		&:hover {
+        		animation: shake .5s cubic-bezier(.30,.10,.20,.90) both;
+        		opacity: 1.0;
+        		@extend %transistion_in;
+      		}
+
+      		@media only screen and (min-width : 320px) and (max-width : 800px) {
+        		//border-width: 2px;
+        		font-size: 20px;
+        		height: 55px;
+        		line-height: 49px; //-6 offest for Verlag funky height (SP)
+        		padding: 0 20px;
+        		@include border-radius(28px);
+          }
+    		}
+
+        &.loading {
+          cursor: wait;
+
+          a {
+            background: $newcoIGTLightGrey;
+            border-color: $newcoIGTGrey;
+            cursor: wait;
+            pointer-events: none;
+            animation: none;
+          }
+        }
+  		}
+
+  		.message_wrapper {
+    		position: absolute;
+    		margin: 0 auto;
+    		//original -- bottom: calc(50% - 150px);
+    		bottom: calc(50% - 80px);
+    		left: 0;
+    		right: 0;
+    		width: 600px;
+    		height: 300px;
+    		max-width: 1000px;
+
+    		@media only screen and (min-width : 600px) and (max-width : 700px) {
+      	  width: 500px;
+      	  bottom: calc(50% - 125px);
+      	  height: 250px;
+        }
+
+    		@media only screen and (min-width : 500px) and (max-width : 600px) {
+      	  width: 400px;
+      	  bottom: calc(50% - 100px);
+      	  height: 200px;
+        }
+
+        @media only screen and (min-width : 375px) and (max-width : 500px) {
+          width: 80%;
+          height: 375px;
+          bottom: calc(50% - 140px);
+        }
+        
+        @media only screen and (min-width : 320px) and (max-width : 374px) {
+          width: 80%;
+          height: 350px;
+          bottom: calc(50% - 130px);
+        }
+
+    		.message_container {
+      		width: 100%;
+      		height: 100%;
+      		background: $newcoIGTMediumBlue;
+      		border: 4px solid $newcoIGTLightBlue;
+      		@include box-shadow(rgba($black, 0.75) 0 0 65px);
+      		@include border-radius(40px);
+      		position: relative;
+
+      		@media only screen and (min-width : 320px) and (max-width : 600px) {
+        	  @include border-radius(20px);
+        	  //border-width: 2px;
+          }
+
+					// iPhone 5
+          //@media only screen and (min-width : 320px) and (max-width : 374px) {
+	        //  height: 350px;
+	        //}
+
+      		.game_group {
+        		font-size: 0;
+        		width: 80%;
+        		margin: auto;
+        		left: 0;
+        		right: 0;
+        		top: -11%;
+        		position: absolute;
+
+        		li > img.grey {
+							-webkit-filter: grayscale(1);
+											filter: grayscale(1);
+        		}
+
+        		@media only screen and (min-width : 320px) and (max-width : 500px) {
+          		top: 7%;
+          		width: 95%
+            }
+
+        		li {
+          		width: 19.2%;
+          		//height: 18%;
+           		margin-left: 1%;
+          		overflow: hidden;
+          		display: inline-block;
+          		font-size: 0;
+          		padding: 0;
+
+          		@media only screen and (min-width : 320px) and (max-width : 500px) {
+            		width: 30%;
+              }
+
+          		&:first-child { margin-left: 0; }
+        		}
+      		}
+
+      		.button_group {
+        		position: absolute;
+        		//bottom: 30%;
+        		bottom: 22%;
+        		left: 0;
+        		right: 0;
+        		margin: 0 auto;
+
+        		.sub-text {
+	        		padding: 0 0 30px 0;
+        		}
+
+        		@media only screen and (min-width : 375px) and (max-width : 500px) {
+          	  bottom: 7%;
+
+          	  .sub-text { display: none;}
+            }
+
+						// iPhone 5
+        		@media only screen and (min-width : 320px) and (max-width : 374px) {
+          		bottom: 7%;
+
+          		.sub-text { display: none;}
+            }
+      		}
+    		}
+
+        .top_right {
+    		  position: absolute;
+    		  top: -125px;
+    		  right: -125px;
+    		  width: 250px;
+    		  height: 250px;
+    		  background: url("#{$get-path-to-images}background_a_top-right.png") center center / cover;
+  		  }
+
+  		  .bottom_left {
+    		  position: absolute;
+    		  bottom: -125px;
+    		  left: -125px;
+    		  width: 250px;
+    		  height: 250px;
+    		  background: url("#{$get-path-to-images}background_a_bottom-left.png") center center / cover;
+  		  }
+  		}
+
+  		.animation_pane {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+
+    		img {
+          display: block;
+          width: 100vw;
+          height: 100vh;
+          position: fixed;
+          object-fit: cover;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					-moz-background-size: cover;
+					-webkit-background-size: cover;
+					-o-background-size: cover;
+    		}
+  		}
+  	}
+  }
+}
+
+@keyframes shake {
+  10%, 90%      { transform: translate3d(-1px, 0, 0); }
+  20%, 80%      { transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+  40%, 60%      { transform: translate3d(4px, 0, 0); }
+}

@@ -1,0 +1,100 @@
+//---------- Pace Loader ----------
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  -webkit-perspective: 12rem;
+  -moz-perspective: 12rem;
+  -ms-perspective: 12rem;
+  -o-perspective: 12rem;
+  perspective: 12rem;
+
+  z-index: 2000;
+  position: fixed;
+  height: 6rem;
+  width: 6rem;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  .pace-progress {
+    position: fixed;
+    z-index: 2000;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 6rem;
+    width: 6rem !important;
+    line-height: 6rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: $newcoIGTMediumBlue;
+    color: #fff;
+    @extend %verlag_book;
+    text-align: center;
+    border: 4px solid $newcoIGTBlue;
+  
+    -webkit-animation: pace-theme-center-circle-spin linear infinite 2s;
+    -moz-animation: pace-theme-center-circle-spin linear infinite 2s;
+    -ms-animation: pace-theme-center-circle-spin linear infinite 2s;
+    -o-animation: pace-theme-center-circle-spin linear infinite 2s;
+    animation: pace-theme-center-circle-spin linear infinite 2s;
+  
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    &:after {
+      content: attr(data-progress-text);
+      display: block;
+    }
+  }
+  
+  &.pace-inactive .pace-progress {
+    display: none;
+  }
+}
+
+@-webkit-keyframes pace-theme-center-circle-spin {
+  from { -webkit-transform: rotateY(0deg) }
+  to { -webkit-transform: rotateY(360deg) }
+}
+
+@-moz-keyframes pace-theme-center-circle-spin {
+  from { -moz-transform: rotateY(0deg) }
+  to { -moz-transform: rotateY(360deg) }
+}
+
+@-ms-keyframes pace-theme-center-circle-spin {
+  from { -ms-transform: rotateY(0deg) }
+  to { -ms-transform: rotateY(360deg) }
+}
+
+@-o-keyframes pace-theme-center-circle-spin {
+  from { -o-transform: rotateY(0deg) }
+  to { -o-transform: rotateY(360deg) }
+}
+
+@keyframes pace-theme-center-circle-spin {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
+
+.pace-wrapper {
+  background: $white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1000;
+}
