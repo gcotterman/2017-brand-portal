@@ -42,3 +42,149 @@ header,
 		left: 10px !important;
 	}
 }
+
+
+
+.menu_arrow {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	z-index: 100;
+	margin-left: -29px;
+
+	a {
+		display: inline-block;
+		width: 58px;
+		height: 33px;
+		background-size: 100%;
+		text-indent: -9999em;
+
+	}
+}
+
+// ----------- Nav Area
+
+nav {
+ width: 250px;
+ height: 100%;
+
+	div.ar_icon_close  {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		display: block;
+		padding: 0;
+		width: 33px;
+		height: 32px;
+		background: url(../images/00_icons/ar_icon_close.png) no-repeat;
+		opacity: 1;
+
+	  a.nav_button {
+		  display: block;
+			margin: 0;
+			padding: 0;
+			width: 33px;
+			height: 32px;
+			background: none;
+	  }
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+
+		li.nav_spacer_bottom {
+			display: block;
+		}
+
+		li.nav_dl_icon {
+		 padding: 0 0 20px 0;
+		 width: 100%;
+
+		 span.fa-long-arrow-down {
+				display: block;
+				margin: 0 auto;
+				width: 15px;
+				text-align: center;
+				font-size: 36px;
+			}
+		}
+
+		li.chapter_nav {
+			text-align: left;
+			list-style-type: none;
+			padding: 10px;
+
+			&:first-child {
+				margin-top: 40px;
+			}
+
+			a {
+				display: block;
+				margin: 0 10px 0 0;
+			}
+		}
+
+		li.nav_bottom {
+			text-align: left;
+
+			a {
+				display: block;
+				font-size: .9em;
+
+				span {
+					margin: 0 10px 0 5px;
+				}
+			}
+		}
+
+		li.nav_active {
+			background: red;
+		}
+
+		li {
+			height: auto;
+			color: $white;
+
+			a {
+				color: $white;
+				text-decoration: none;
+			}
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+// Let's Style The Menu
+.cbp-spmenu {
+	position: fixed;
+	//background: green;
+	background: #333;
+
+	a {
+		display: block;
+		color: $white;
+	}
+
+	a:hover {
+		background: pink;
+		text-decoration: none;
+	}
+}
+
+// Specific Style for Verticle (horizontal not developed (SP)
+.cbp-spmenu-vertical {
+	top: 0;
+	z-index: 1000;
+	width: 240px;
+	height: 100%;
+
+	a { display: inherit; }
+}
+
+.cbp-spmenu-left { right: -240px; }
+.cbp-spmenu-left.cbp-spmenu-open { right: 0px; }

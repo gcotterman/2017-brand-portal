@@ -31,6 +31,16 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/assets\/css\/extensions\/full_page_slides.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/extensions\/full_page_slides-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/css\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -203,6 +213,60 @@
 		"oAP": "\/assets\/images\/Thumbs.db",
 		"oF": 0
 		},
+	"\/assets\/js\/brand_menu_custom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/brand_menu_custom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/fullpage_plugin_custom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/fullpage_plugin_custom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/gumby.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/gumby.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/gumby.retina.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/gumby.retina-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/javascript.fullPage.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/javascript.fullPage-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/javascript.fullPage.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/javascript.fullPage.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/jquery.fitvids.js": {
 		"ft": 64,
 		"mi": 1,
@@ -212,374 +276,392 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/gumby-ck.js": {
+	"\/assets\/js\/jquery.slimscroll.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/gumby-ck-min.js",
+		"oAP": "\/assets\/js\/min\/jquery.slimscroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/gumby.init-ck.js": {
+	"\/assets\/js\/modernizr-2.6.2.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/gumby.init-ck-min.js",
+		"oAP": "\/assets\/js\/min\/modernizr-2.6.2.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/gumby.init.js": {
+	"\/assets\/js\/OLD\/libs\/gumby-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/gumby.init-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/gumby.js": {
+	"\/assets\/js\/OLD\/libs\/gumby.init-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/gumby-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.init-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/gumby.min-ck.js": {
+	"\/assets\/js\/OLD\/libs\/gumby.init.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/gumby.min-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.init-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/gumby.min.js": {
+	"\/assets\/js\/OLD\/libs\/gumby.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/gumby.min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/gumby.shuffle.js": {
+	"\/assets\/js\/OLD\/libs\/gumby.min-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/gumby.shuffle-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.min-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/jquery-1.10.1.min-ck.js": {
+	"\/assets\/js\/OLD\/libs\/gumby.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/jquery-1.10.1.min-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/jquery-1.10.1.min.js": {
+	"\/assets\/js\/OLD\/libs\/gumby.shuffle.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/jquery-1.10.1.min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.shuffle-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/jquery-1.10.1.min.map": {
+	"\/assets\/js\/OLD\/libs\/jquery-1.10.1.min-ck.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-1.10.1.min-ck-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/OLD\/libs\/jquery-1.10.1.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-1.10.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/OLD\/libs\/jquery-1.10.1.min.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/js\/libs\/jquery-1.10.1.min.map",
+		"oAP": "\/assets\/js\/OLD\/libs\/jquery-1.10.1.min.map",
 		"oF": 0
 		},
-	"\/assets\/js\/libs\/jquery-1.7.1.min.js": {
+	"\/assets\/js\/OLD\/libs\/jquery-1.7.1.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/jquery-1.7.1.min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-1.7.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/jquery-2.0.2.min-ck.js": {
+	"\/assets\/js\/OLD\/libs\/jquery-2.0.2.min-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/jquery-2.0.2.min-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-2.0.2.min-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/jquery-2.0.2.min.js": {
+	"\/assets\/js\/OLD\/libs\/jquery-2.0.2.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/jquery-2.0.2.min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-2.0.2.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/jquery-2.0.2.min.map": {
+	"\/assets\/js\/OLD\/libs\/jquery-2.0.2.min.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/js\/libs\/jquery-2.0.2.min.map",
+		"oAP": "\/assets\/js\/OLD\/libs\/jquery-2.0.2.min.map",
 		"oF": 0
 		},
-	"\/assets\/js\/libs\/jquery.mobile.custom.min-ck.js": {
+	"\/assets\/js\/OLD\/libs\/jquery.mobile.custom.min-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/jquery.mobile.custom.min-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery.mobile.custom.min-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/jquery.mobile.custom.min.js": {
+	"\/assets\/js\/OLD\/libs\/jquery.mobile.custom.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/jquery.mobile.custom.min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery.mobile.custom.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/min\/jquery-1.7.1.min-min.js": {
+	"\/assets\/js\/OLD\/libs\/min\/jquery-1.7.1.min-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/min\/jquery-1.7.1.min-min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/min\/jquery-1.7.1.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/modernizr-2.6.2.min-ck.js": {
+	"\/assets\/js\/OLD\/libs\/modernizr-2.6.2.min-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/modernizr-2.6.2.min-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/modernizr-2.6.2.min-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/modernizr-2.6.2.min.js": {
+	"\/assets\/js\/OLD\/libs\/modernizr-2.6.2.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/min\/modernizr-2.6.2.min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/min\/modernizr-2.6.2.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.checkbox-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.checkbox-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.checkbox-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.checkbox-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.checkbox.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.checkbox.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.checkbox-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.checkbox-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.fixed-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.fixed-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.fixed-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.fixed-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.fixed.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.fixed.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.fixed-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.fixed-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.navbar-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.navbar-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.navbar-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.navbar-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.navbar.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.navbar.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.navbar-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.navbar-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.radiobtn-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.radiobtn-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.radiobtn-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.radiobtn-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.radiobtn.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.radiobtn.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.radiobtn-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.radiobtn-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.retina-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.retina-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.retina-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.retina-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.retina.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.retina.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.retina-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.retina-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.skiplink-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.skiplink-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.skiplink-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.skiplink-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.skiplink.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.skiplink.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.skiplink-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.skiplink-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.tabs-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.tabs-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.tabs-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.tabs-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.tabs.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.tabs.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.tabs-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.tabs-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.toggleswitch-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.toggleswitch-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.toggleswitch-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.toggleswitch-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/gumby.toggleswitch.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/gumby.toggleswitch.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/gumby.toggleswitch-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.toggleswitch-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/jquery-ui.min.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/jquery-ui.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/jquery-ui.min-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/jquery-ui.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/jquery.validation-ck.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/jquery.validation-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/jquery.validation-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/jquery.validation-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/libs\/ui\/jquery.validation.js": {
+	"\/assets\/js\/OLD\/libs\/ui\/jquery.validation.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/libs\/ui\/min\/jquery.validation-min.js",
+		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/jquery.validation-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/igt-games-min.js": {
+	"\/assets\/js\/OLD\/min\/jquery.dlmenu-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/igt-games-min-min.js",
+		"oAP": "\/assets\/js\/OLD\/min\/min\/jquery.dlmenu-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/jquery.dlmenu-ck.js": {
+	"\/assets\/js\/OLD\/min\/modernizr.custom-ck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/jquery.dlmenu-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/min\/min\/modernizr.custom-ck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/modernizr.custom-ck.js": {
+	"\/assets\/js\/OLD\/min\/pace-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/modernizr.custom-ck-min.js",
+		"oAP": "\/assets\/js\/OLD\/min\/min\/pace-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/pace-min.js": {
+	"\/assets\/js\/OLD\/respond.src.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/pace-min-min.js",
+		"oAP": "\/assets\/js\/OLD\/min\/respond.src-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -598,15 +680,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/pace.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/respond.src.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/respond.src-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1096,6 +1169,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_footable_core.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/extensions\/full_page_slides.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/full_page_slides.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

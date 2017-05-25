@@ -12,8 +12,8 @@
   <meta name="keywords" />
   
   <!-- Favicon & Apple Icon -->
-  <link rel="shortcut icon" href="images/favicon.ico" />
-  <link rel="apple-touch-icon" href="images/apple-touch-icon-114x114-precomposed.png" />
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-114x114-precomposed.png" />
  
   <!-- Facebook Metadata -->
   <meta property="fb:page_id" />
@@ -30,36 +30,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
   <!-- Styles -->
-  <link rel="stylesheet" href="css/styles.css" />
-  
-  <!-- FontAwesome (4.7) -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
   
   <!-- Modernizr -->
-  <script src="js/libs/modernizr-2.6.2.min.js"></script>
+  <script src="/assets/js/modernizr-2.6.2.min.js"></script>
+  
+  <!-- Pace Loader -->
+  <script type="text/javascript" src="/assets/js/pace.min.js"></script>
+  <script type="text/javascript">
+    Pace.on("start", function(){ $("div.pace-wrapper").show(); });
+    Pace.on("done", function(){ $("div.pace-wrapper").delay(500).fadeOut(); });
+  </script>
 </head>
-<body>
-  <form id="formMain">
+<body data-index="home">
+  <!-- Loading Wrapper -->
+  <div class="pace-wrapper"></div>
+    
+    <!-- Header -->
+    <header class="main_header" style="display: none;">
+      <div class="logo_wrpper">
+        <a href="//www.igt.com" class="logo replace-text" title="IGT" alt="IGT"><h1>IGT - Brand Portal</h1></a>
+      </div>
+    </header><!-- end .main_header -->
+      
+    <div id="header">
+      <a href="#" class="toggle-menu nav_button">
+        <i class="fa fa-bars fa-2"></i>
+      </a>
+    </div>
+    
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+      <div class="ar_icon_close">
+       <a href="#" class="nav_button"></a>
+      </div>
+    	<ul>
+    		<li class="chapter_nav" data-menuanchor="chapter_1">
+    			<a href="#chapter_1">Item One</a>
+    		</li>
+    		<li class="chapter_nav" data-menuanchor="chapter_2">
+    			<a href="#chapter_2">Item Two</a>
+    		</li>
+    		<li class="chapter_nav" data-menuanchor="chapter_3">
+    			<a href="#chapter_3">Item Three</a>
+    		</li>
+    		<li class="chapter_nav" data-menuanchor="chapter_4">
+    			<a href="#chapter_4">Item Four</a>
+    		</li>
+    	</ul>
+    </nav>
 
+  	<div id="fullpage">
+  		<div class="section" id="section1">
+  			<!-- Side 1 -->
+  			<div class="slide" id="slide1">
+  				<div class="content">
+  					<h2>1 The Brand Home</h2>
+  				</div>
+  			</div>
+  			<!-- Side 2 -->
+  			<div class="slide" id="slide2">
+  				<div class="content">
+  					<h2>2 We Are IGT</h2>
+  				</div>
+  			</div>
+  			<!-- Side 3 -->
+  			<div class="slide" id="slide3">
+  				<div class="content">
+  					<h2>3 Positioning</h2>
+  				</div>
+  			</div>
+  			<!-- Side 4 -->
+  			<div class="slide" id="slide4">
+  				<div class="content">
+  					<h2>4 Personality</h2>
+  				</div>
+  			</div>
+  			<!-- Side 5 -->
+  			<div class="slide" id="slide5">
+  				<div class="content">
+  					<h2>5 Commitment</h2>
+  				</div>
+  			</div>
+  			<!-- Side 6 -->
+  			<div class="slide" id="slide6">
+  				<div class="content">
+  					<h2>6 Our Visual Evolution</h2>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	
+  	<!-- Menu Overlay Dimmer -->
+    <div class="menu_dimmer2">&nbsp;</div>
+    
     <!-- Section 1 -->
     <div class="container">
       <div class="row">
-        <div class="centered twelve columns">
-          <div class="eight columns ">
-            
-          </div><!-- //END .section_1_a -->
-          <div class="four columns">
-            
-          </div><!-- //END .section_1_b -->
-        </div><!-- //END .columns -->
+
       </div><!-- //END .row -->
     </div><!-- //END .container -->
     
-    <div class="container footer" style="display: none;">
+    <div class="container footer">
       <div class="row">
         <div class="centered eight columns push_two">
           <div class="footer_logo">
-            <img src="images/igt_logo.png" gumby-retina />
+            <img src="/assets/images/igt_logo.png" gumby-retina />
           </div>
           <ul class="footer_links">
             <li><a href="http://www.igt.com/en/privacy-notice" title="Privacy Notice" target="_blank">Privacy Notice</a></li>
@@ -73,23 +148,35 @@
             <li><a title="YouTube" href="http://www.youtube.com/igt" target="_blank"><i class="fa fa-youtube"></i></a></li>
           </ul>
           <p class="igt_copyright">
-            &copy; 2015 IGT Global Solutions Corporation. All rights reserved. The trademarks and/or service marks used herein are either trademarks or registered trademarks of IGT, its affiliates or its licensors in the U.S. and/or other countries.
+            &copy; 2017 IGT Global Solutions Corporation. All rights reserved. The trademarks and/or service marks used herein are either trademarks or registered trademarks of IGT, its affiliates or its licensors in the U.S. and/or other countries.
           </p>
         </div><!-- //END .columns -->
       </div><!-- //END .row -->
     </div><!-- //END .container -->
     
+   
+    <!-- jQuery and jQuery UI -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="/assets/js/libs/jquery-2.0.2.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.slimscroll.js"></script>
+    
+    <!-- Homepage Slider -->
+    <script type="text/javascript" src="/assets/js/javascript.fullPage.js"></script>
+    <script type="text/javascript" src="/assets/js/fullpage_plugin_custom.js"></script>
+
+    <!-- Navigation -->
+    <script type="text/javascript" src="/assets/js/brand_menu_custom.js"></script>
+
     <!-- Load Gumby Scripts -->
-    <script src="js/libs/gumby.min.js"></script>
-    <script src="js/libs/ui/gumby.retina.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/assets/js/gumby.min.js"></script>
+    <script src="/assets/js/gumby.retina.js"></script>
     
     <!-- Google Analytics for http://brand.IGT.com -->
     <script>
       <!-- Place Tracking Code Here (SP) -->
     </script>
     
-  </form>    
+
 </body>
 </html>

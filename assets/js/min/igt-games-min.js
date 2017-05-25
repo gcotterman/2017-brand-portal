@@ -1,1 +1,0 @@
-function adjustHeight(){var t=$(".gumby_fixed").closest(".content"),e=t.height();t.css({"min-height":e})}$(function(){$(".gumby_fixed").closest(".content").resize(function(){adjustHeight()}),adjustHeight()});
