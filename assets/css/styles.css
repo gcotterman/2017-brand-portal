@@ -1660,6 +1660,11 @@ h1, h2, h3, h4, h5, h6, .pace .pace-progress {
   font-weight: 400;
   font-style: normal; }
 
+nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title {
+  font-family: 'Verlag A', 'Verlag B', Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal; }
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   color: #0c51a1;
@@ -4102,238 +4107,175 @@ header,
   .logo_wrpper > .logo {
     top: 10px !important;
     left: 10px !important; } }
-.menu_arrow {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 100;
-  margin-left: -29px; }
-  .menu_arrow a {
-    display: inline-block;
-    width: 58px;
-    height: 33px;
-    background-size: 100%;
-    text-indent: -9999em; }
-
-nav {
-  width: 250px;
-  height: 100%; }
-  nav div.ar_icon_close {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    display: block;
-    padding: 0;
-    width: 33px;
-    height: 32px;
-    background: url(../images/00_icons/ar_icon_close.png) no-repeat;
-    opacity: 1; }
-    nav div.ar_icon_close a.nav_button {
-      display: block;
-      margin: 0;
-      padding: 0;
-      width: 33px;
-      height: 32px;
-      background: none; }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    height: 100%; }
-    nav ul li.nav_spacer_bottom {
-      display: block; }
-    nav ul li.nav_dl_icon {
-      padding: 0 0 20px 0;
-      width: 100%; }
-      nav ul li.nav_dl_icon span.fa-long-arrow-down {
-        display: block;
-        margin: 0 auto;
-        width: 15px;
-        text-align: center;
-        font-size: 36px; }
-    nav ul li.chapter_nav {
-      text-align: left;
-      list-style-type: none;
-      padding: 10px; }
-      nav ul li.chapter_nav:first-child {
-        margin-top: 40px; }
-      nav ul li.chapter_nav a {
-        display: block;
-        margin: 0 10px 0 0; }
-    nav ul li.nav_bottom {
-      text-align: left; }
-      nav ul li.nav_bottom a {
-        display: block;
-        font-size: .9em; }
-        nav ul li.nav_bottom a span {
-          margin: 0 10px 0 5px; }
-    nav ul li.nav_active {
-      background: red; }
-    nav ul li {
-      height: auto;
-      color: #ffffff; }
-      nav ul li a {
-        color: #ffffff;
-        text-decoration: none; }
-      nav ul li:hover {
-        text-decoration: none; }
-
-.cbp-spmenu {
-  position: fixed;
-  background: #333; }
-  .cbp-spmenu a {
-    display: block;
-    color: #ffffff; }
-  .cbp-spmenu a:hover {
-    background: pink;
-    text-decoration: none; }
-
-.cbp-spmenu-vertical {
-  top: 0;
-  z-index: 1000;
-  width: 240px;
-  height: 100%; }
-  .cbp-spmenu-vertical a {
-    display: inherit; }
-
-.cbp-spmenu-left {
-  right: -240px; }
-
-.cbp-spmenu-left.cbp-spmenu-open {
-  right: 0px; }
-
-[data-index="home"] .btn:hover {
-  transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -webkit-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out; }
-
-[data-index="home"] .btn {
-  transition: all .2s ease-in;
-  -moz-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in; }
-
-[data-index="home"] {
-  background: #1b9ddb;
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF0C51A1', endColorstr='#FF0C51A1');
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBjNTFhMSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMWI5ZGRiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGM1MWExIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #0c51a1), color-stop(50%, #1b9ddb), color-stop(100%, #0c51a1));
-  background-image: -moz-linear-gradient(left, #0c51a1 0%, #1b9ddb 50%, #0c51a1 100%);
-  background-image: -webkit-linear-gradient(left, #0c51a1 0%, #1b9ddb 50%, #0c51a1 100%);
-  background-image: linear-gradient(to right, #0c51a1 0%, #1b9ddb 50%, #0c51a1 100%); }
-  [data-index="home"] h2, [data-index="home"] h3, [data-index="home"] p {
-    text-align: center;
-    color: #ffffff;
-    padding: 0 0 15px 0; }
-  [data-index="home"] h2 {
-    font-size: 60px;
-    line-height: 60px; }
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
-      [data-index="home"] h2 {
-        font-size: 40px;
-        line-height: 40px; } }
-  [data-index="home"] h3 {
-    font-size: 30px;
-    line-height: 30px; }
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
-      [data-index="home"] h3 {
-        font-size: 20px;
-        line-height: 20px;
-        padding: 0 35px 15px 35px; } }
-    @media only screen and (min-width: 320px) and (max-width: 374px) {
-      [data-index="home"] h3 {
-        font-size: 18px;
-        line-height: 18px;
-        padding: 0 25px 15px 25px; } }
-  [data-index="home"] p {
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0 auto;
-    max-width: 400px;
-    padding: 0; }
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
-      [data-index="home"] p {
-        max-width: 250px;
-        font-size: 12px;
-        line-height: 16px; } }
-  [data-index="home"] .btn {
-    line-height: 40px;
-    height: 40px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    background: #ff671f;
-    font-family: 'Verlag A', 'Verlag B', Arial, sans-serif;
-    margin-bottom: 10px;
-    /*--- Mobile portrait ---*/ }
-    [data-index="home"] .btn:hover {
-      background: #ffa300; }
-    [data-index="home"] .btn.roll_again {
-      background: #0c51a1;
-      margin-left: 5px;
-      margin-bottom: 0; }
-      @media only screen and (min-width: 320px) and (max-width: 374px) {
-        [data-index="home"] .btn.roll_again {
-          margin: 0; } }
-      [data-index="home"] .btn.roll_again:hover {
-        background: #8dc8e8; }
-      [data-index="home"] .btn.roll_again a:hover {
-        color: #0c51a1 !important; }
-    [data-index="home"] .btn.loading {
-      background: #b3b3b3 !important;
-      cursor: wait !important;
-      pointer-events: none !important; }
-      [data-index="home"] .btn.loading a {
-        cursor: wait !important; }
-    [data-index="home"] .btn a {
-      color: #ffffff;
-      line-height: 40px;
-      height: 40px;
-      font-size: 18px;
-      padding: 0 20px; }
-    @media only screen and (min-width: 320px) and (max-width: 600px) {
-      [data-index="home"] .btn {
-        line-height: 35px;
-        height: 35px;
-        -moz-border-radius: 18px;
-        -webkit-border-radius: 18px;
-        border-radius: 18px; }
-        [data-index="home"] .btn a {
-          line-height: 35px;
-          height: 35px;
-          font-size: 16px;
-          padding: 0 15px; } }
-
-.section {
-  text-align: center;
-  background-size: cover; }
-
-.slide {
-  background-size: cover; }
-
-#slide1 {
-  background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
-
-#slide2 {
-  background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg); }
-
-#slide3 {
-  background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg); }
-
-#slide4 {
-  background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg); }
-
-#slide5 {
-  background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
-
-#slide6 {
-  background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
-
 .toggle-menu {
   position: absolute;
   z-index: 9999999; }
+
+nav.cbp-spmenu {
+  width: 280px;
+  height: 100%;
+  position: fixed;
+  background: #333;
+  z-index: 1000; }
+  nav.cbp-spmenu.cbp-spmenu-left {
+    right: -280px; }
+  nav.cbp-spmenu.cbp-spmenu-left.cbp-spmenu-open {
+    right: 0px; }
+  nav.cbp-spmenu .nav_wrapper {
+    position: relative;
+    height: 100%; }
+    nav.cbp-spmenu .nav_wrapper .button_toggle {
+      position: absolute;
+      top: 22px;
+      left: -62px;
+      display: block;
+      padding: 0;
+      width: 32px;
+      height: 32px;
+      opacity: 1;
+      text-align: right; }
+      @media only screen and (min-width: 319px) and (max-width: 560px) {
+        nav.cbp-spmenu .nav_wrapper .button_toggle {
+          top: 6px;
+          left: -46px; } }
+      nav.cbp-spmenu .nav_wrapper .button_toggle a {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 33px;
+        height: 32px;
+        background: none;
+        color: #ffffff; }
+        nav.cbp-spmenu .nav_wrapper .button_toggle a:hover {
+          color: #ffffff; }
+    nav.cbp-spmenu .nav_wrapper ul {
+      margin: 0;
+      padding: 0;
+      height: 100%; }
+      nav.cbp-spmenu .nav_wrapper ul li {
+        height: 20%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        display: table;
+        background-size: cover; }
+        nav.cbp-spmenu .nav_wrapper ul li.chapter_nav {
+          text-align: left;
+          list-style-type: none; }
+          nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a {
+            display: table-cell;
+            vertical-align: middle;
+            padding: 0 20px;
+            transition: all 0.5s ease; }
+            nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title,
+            nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_subtitle {
+              display: none; }
+            nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title {
+              font-size: 24px; }
+            nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_subtitle {
+              font-size: 16px;
+              font-weight: 300; }
+            nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a:hover {
+              background: rgba(0, 0, 0, 0.65); }
+              nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a:hover .menu_title {
+                display: block; }
+              nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a:hover .menu_subtitle {
+                display: block; }
+            @media only screen and (min-width: 319px) and (max-width: 560px) {
+              nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a {
+                background: rgba(0, 0, 0, 0.65); }
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title,
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_subtitle {
+                  display: block !important; }
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title {
+                  font-size: 20px; }
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_subtitle {
+                  font-size: 12px;
+                  line-height: 12px; } }
+        nav.cbp-spmenu .nav_wrapper ul li a {
+          color: #ffffff;
+          text-decoration: none; }
+        nav.cbp-spmenu .nav_wrapper ul li:hover {
+          text-decoration: none; }
+        nav.cbp-spmenu .nav_wrapper ul li.nav_active {
+          background: red; }
+        nav.cbp-spmenu .nav_wrapper ul li[data-menuanchor=chapter_1] {
+          background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
+        nav.cbp-spmenu .nav_wrapper ul li[data-menuanchor=chapter_2] {
+          background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg); }
+        nav.cbp-spmenu .nav_wrapper ul li[data-menuanchor=chapter_3] {
+          background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg); }
+        nav.cbp-spmenu .nav_wrapper ul li[data-menuanchor=chapter_4] {
+          background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg); }
+        nav.cbp-spmenu .nav_wrapper ul li[data-menuanchor=chapter_5] {
+          background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
+
+.hp_slideshow .section {
+  text-align: center;
+  background-size: cover; }
+  .hp_slideshow .section h2,
+  .hp_slideshow .section h3,
+  .hp_slideshow .section p {
+    color: #ffffff;
+    padding: 0 0 15px 0; }
+  .hp_slideshow .section h1 {
+    font-size: 50px;
+    line-height: 50px; }
+  .hp_slideshow .section h2 {
+    font-size: 30px;
+    line-height: 30px; }
+  .hp_slideshow .section h3 {
+    font-size: 20px;
+    line-height: 20px; }
+  .hp_slideshow .section p {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 0; }
+  .hp_slideshow .section .slide {
+    background-size: cover; }
+    .hp_slideshow .section .slide .content_wrapper {
+      display: table;
+      margin: 0 auto;
+      padding: 0 40px;
+      height: 100%;
+      width: 100%;
+      max-width: 1040px; }
+      .hp_slideshow .section .slide .content_wrapper .content {
+        display: table-cell;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        vertical-align: middle; }
+  .hp_slideshow .section #slide1 {
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
+  .hp_slideshow .section #slide2 {
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg); }
+  .hp_slideshow .section #slide3 {
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg); }
+  .hp_slideshow .section #slide4 {
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg); }
+  .hp_slideshow .section #slide5 {
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
+  .hp_slideshow .section #slide6 {
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
+  .hp_slideshow .section .fp-controlArrow {
+    display: none; }
+  .hp_slideshow .section .fp-slidesNav ul li a span {
+    background: #ffffff; }
+  .hp_slideshow .section .fp-slidesNav ul li:hover a span {
+    background: red; }
+
+.menu_dimmer {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65); }
 
 .pace {
   -webkit-pointer-events: none;

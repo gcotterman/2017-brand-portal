@@ -31,6 +31,7 @@
   
   <!-- Styles -->
   <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6075894/6117552/css/fonts.css" />
   
   <!-- Modernizr -->
   <script src="/assets/js/modernizr-2.6.2.min.js"></script>
@@ -52,76 +53,111 @@
         <a href="//www.igt.com" class="logo replace-text" title="IGT" alt="IGT"><h1>IGT - Brand Portal</h1></a>
       </div>
     </header><!-- end .main_header -->
-      
-    <div id="header">
-      <a href="#" class="toggle-menu nav_button">
-        <i class="fa fa-bars fa-2"></i>
-      </a>
-    </div>
     
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
-      <div class="ar_icon_close">
-       <a href="#" class="nav_button"></a>
+      <div class="nav_wrapper">
+        <div class="button_toggle">
+          <div class="nav_icon_close" style="display: none;">
+            <a href="#">
+              <i class="fa fa-times"></i>
+            </a>
+          </div>
+          <div class="nav_icon_open">
+            <a href="#">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>      
+        </div>
+      	<ul>
+      		<li class="chapter_nav" data-menuanchor="chapter_1">
+      			<a href="#chapter_1">
+        			<span class="menu_title">The IGT Brand</span>
+        			<span class="menu_subtitle">An Introduction to the IGT Brand</span>
+      			</a>
+      		</li>
+      		<li class="chapter_nav" data-menuanchor="chapter_2">
+      			<a href="#chapter_2">
+        			<span class="menu_title">Design Application</span>
+        			<span class="menu_subtitle">Examples of the Brand In-Action</span>
+      			</a>
+      		</li>
+      		<li class="chapter_nav" data-menuanchor="chapter_3">
+      			<a href="#chapter_3">
+        			<span class="menu_title">Brand Identity System</span>
+        			<span class="menu_subtitle">How the Brand Comes Together</span>
+      			</a>
+      		</li>
+      		<li class="chapter_nav" data-menuanchor="chapter_4">
+      			<a href="#chapter_4">
+        			<span class="menu_title">Downloads</span>
+        			<span class="menu_subtitle">Resources for Your Use</span>
+      			</a>
+      		</li>
+      		<li class="chapter_nav" data-menuanchor="chapter_5">
+      			<a href="#chapter_5">
+        			<span class="menu_title">Support</span>
+        			<span class="menu_subtitle">Get Help, and Learn More</span>
+      			</a>
+      		</li>
+      	</ul>
       </div>
-    	<ul>
-    		<li class="chapter_nav" data-menuanchor="chapter_1">
-    			<a href="#chapter_1">Item One</a>
-    		</li>
-    		<li class="chapter_nav" data-menuanchor="chapter_2">
-    			<a href="#chapter_2">Item Two</a>
-    		</li>
-    		<li class="chapter_nav" data-menuanchor="chapter_3">
-    			<a href="#chapter_3">Item Three</a>
-    		</li>
-    		<li class="chapter_nav" data-menuanchor="chapter_4">
-    			<a href="#chapter_4">Item Four</a>
-    		</li>
-    	</ul>
     </nav>
 
-  	<div id="fullpage">
+  	<div id="fullpage" class="hp_slideshow">
   		<div class="section" id="section1">
   			<!-- Side 1 -->
   			<div class="slide" id="slide1">
-  				<div class="content">
-  					<h2>1 The Brand Home</h2>
-  				</div>
+    			<div class="content_wrapper">
+    				<div class="content">
+    					<h2>(1) The IGT Brand</h2>
+    				</div>
+    			</div>
   			</div>
   			<!-- Side 2 -->
   			<div class="slide" id="slide2">
-  				<div class="content">
-  					<h2>2 We Are IGT</h2>
-  				</div>
+    			<div class="content_wrapper">
+    				<div class="content">
+    					<h2>(2) We are IGT</h2>
+    				</div>
+    			</div>
   			</div>
   			<!-- Side 3 -->
   			<div class="slide" id="slide3">
-  				<div class="content">
-  					<h2>3 Positioning</h2>
-  				</div>
+    			<div class="content_wrapper">
+    				<div class="content">
+    					<h2>(3) Positioning</h2>
+    				</div>
+    			</div>
   			</div>
   			<!-- Side 4 -->
   			<div class="slide" id="slide4">
-  				<div class="content">
-  					<h2>4 Personality</h2>
-  				</div>
+    			<div class="content_wrapper">
+    				<div class="content">
+    					<h2>(4) Personality</h2>
+    				</div>
+    			</div>
   			</div>
   			<!-- Side 5 -->
   			<div class="slide" id="slide5">
-  				<div class="content">
-  					<h2>5 Commitment</h2>
-  				</div>
+    			<div class="content_wrapper">
+    				<div class="content">
+    					<h2>(5) Commitments</h2>
+    				</div>
+    			</div>
   			</div>
   			<!-- Side 6 -->
   			<div class="slide" id="slide6">
-  				<div class="content">
-  					<h2>6 Our Visual Evolution</h2>
-  				</div>
+    			<div class="content_wrapper">
+    				<div class="content">
+    					<h2>(6) Our Visual Evolution</h2>
+    				</div>
+    			</div>
   			</div>
   		</div>
   	</div>
   	
   	<!-- Menu Overlay Dimmer -->
-    <div class="menu_dimmer2">&nbsp;</div>
+    <div class="menu_dimmer" style="display: none;">&nbsp;</div>
     
     <!-- Section 1 -->
     <div class="container">

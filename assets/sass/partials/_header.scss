@@ -31,7 +31,6 @@ header,
 }
 
 // iphone 5 small...
-
 @media only screen and (min-width : 320px) and (max-width : 374px) {
 	.header, .main_header {
 		height: 70px;
@@ -43,148 +42,139 @@ header,
 	}
 }
 
-
-
-.menu_arrow {
-	position: absolute;
-	bottom: 20px;
-	left: 50%;
-	z-index: 100;
-	margin-left: -29px;
-
-	a {
-		display: inline-block;
-		width: 58px;
-		height: 33px;
-		background-size: 100%;
-		text-indent: -9999em;
-
-	}
+.toggle-menu {
+  position: absolute;
+  z-index: 9999999;
 }
 
-// ----------- Nav Area
+// ===== Main Menu =====
+//With changes also need to be made to "brand_menu_custom.js" (SP)
+$nav-width: 280px;
 
-nav {
- width: 250px;
- height: 100%;
-
-	div.ar_icon_close  {
-		position: absolute;
-		top: 10px;
-		left: 10px;
-		display: block;
-		padding: 0;
-		width: 33px;
-		height: 32px;
-		background: url(../images/00_icons/ar_icon_close.png) no-repeat;
-		opacity: 1;
-
-	  a.nav_button {
-		  display: block;
-			margin: 0;
-			padding: 0;
-			width: 33px;
-			height: 32px;
-			background: none;
-	  }
-	}
-
-	ul {
-		margin: 0;
-		padding: 0;
-		height: 100%;
-
-		li.nav_spacer_bottom {
-			display: block;
-		}
-
-		li.nav_dl_icon {
-		 padding: 0 0 20px 0;
-		 width: 100%;
-
-		 span.fa-long-arrow-down {
-				display: block;
-				margin: 0 auto;
-				width: 15px;
-				text-align: center;
-				font-size: 36px;
-			}
-		}
-
-		li.chapter_nav {
-			text-align: left;
-			list-style-type: none;
-			padding: 10px;
-
-			&:first-child {
-				margin-top: 40px;
-			}
-
-			a {
-				display: block;
-				margin: 0 10px 0 0;
-			}
-		}
-
-		li.nav_bottom {
-			text-align: left;
-
-			a {
-				display: block;
-				font-size: .9em;
-
-				span {
-					margin: 0 10px 0 5px;
-				}
-			}
-		}
-
-		li.nav_active {
-			background: red;
-		}
-
-		li {
-			height: auto;
-			color: $white;
-
-			a {
-				color: $white;
-				text-decoration: none;
-			}
-
-			&:hover {
-				text-decoration: none;
-			}
-		}
-	}
-}
-
-// Let's Style The Menu
-.cbp-spmenu {
+nav.cbp-spmenu {
+  width: $nav-width;
+  height: 100%;
 	position: fixed;
-	//background: green;
 	background: #333;
-
-	a {
-		display: block;
-		color: $white;
-	}
-
-	a:hover {
-		background: pink;
-		text-decoration: none;
-	}
-}
-
-// Specific Style for Verticle (horizontal not developed (SP)
-.cbp-spmenu-vertical {
-	top: 0;
 	z-index: 1000;
-	width: 240px;
-	height: 100%;
-
-	a { display: inherit; }
+	
+	&.cbp-spmenu-left { right: -$nav-width; }
+  &.cbp-spmenu-left.cbp-spmenu-open { right: 0px; }
+ 
+  .nav_wrapper {
+    position: relative;
+    height: 100%;
+    
+    .button_toggle  {
+  		position: absolute;
+  		top: 22px;
+  		left: -62px;
+  		display: block;
+  		padding: 0;
+  		width: 32px;
+  		height: 32px;
+  		opacity: 1;
+  		text-align: right;
+  		
+  		@include respond(all-phones) {
+    	  top: 6px;
+    	  left: -46px;	
+      }
+  
+  	  a {
+  		  display: block;
+  			margin: 0;
+  			padding: 0;
+  			width: 33px;
+  			height: 32px;
+  			background: none;
+  			color: $white;
+  			
+  			&:hover { color: $white; }
+  	  }
+  	}
+  
+  	ul {
+  		margin: 0;
+  		padding: 0;
+  		height: 100%;  
+  
+  		li {
+  			height: 20%;
+  			width: 100%;
+  			margin: 0;
+  			padding: 0;
+  			color: $white;
+  			display: table;
+  			background-size: cover;
+  			
+  			&.chapter_nav {
+    			text-align: left;
+    			list-style-type: none;
+    
+    			a {
+    				display: table-cell;
+    				vertical-align: middle;
+    				padding: 0 20px;
+    				transition: all 0.5s ease;
+    				
+    				.menu_title,
+    				.menu_subtitle {
+      			  display: none;	
+    				}
+    				
+    				.menu_title {
+      				@extend %verlag_bold;
+      				font-size: 24px;
+    				}
+    				
+    				.menu_subtitle {
+      				font-size: 16px;
+      				font-weight: 300;
+    				}
+    				
+    				&:hover {
+      				background: rgba(0, 0, 0, .65);      				
+      				
+      				.menu_title { display: block; }
+      				.menu_subtitle { display: block; }
+    				}
+    				
+    				@include respond(all-phones) {
+      				background: rgba(0, 0, 0, .65);  
+      				
+              .menu_title,
+      				.menu_subtitle {
+        			  display: block !important;	
+      				}
+      				
+      				.menu_title { font-size: 20px; }
+      				
+      				.menu_subtitle {
+        				font-size: 12px;
+        				line-height: 12px;
+        		  }
+      		  }
+    			}
+  			}
+  
+  			a {
+  				color: $white;
+  				text-decoration: none;
+  			}
+  
+  			&:hover {
+  				text-decoration: none;
+  			}
+  			
+  			&.nav_active { background: red; }
+  			
+        &[data-menuanchor=chapter_1] { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
+        &[data-menuanchor=chapter_2] {	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg); }
+        &[data-menuanchor=chapter_3] { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg); }
+        &[data-menuanchor=chapter_4] { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg); }
+        &[data-menuanchor=chapter_5] {	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
+  		}
+  	}
+  }
 }
-
-.cbp-spmenu-left { right: -240px; }
-.cbp-spmenu-left.cbp-spmenu-open { right: 0px; }

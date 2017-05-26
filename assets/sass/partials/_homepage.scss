@@ -1,4 +1,4 @@
-// ------------ LANDING PAGE
+// ------------ HOMEPAGE
 
 %transistion_out {
   transition: all .2s ease-out;
@@ -14,152 +14,100 @@
   -o-transition: all .2s ease-in;
 }
 
-[data-index="home"] {
-  background: $newcoIGTMediumBlue;
-  @include filter-gradient(#0c51a1, #0c51a1, horizontal); // Fallback support for IE6-9 (SP)
-  @include background-image(linear-gradient(left,  #0c51a1 0%,#1b9ddb 50%,#0c51a1 100%));
-
-  //Global Typography
-  h2, h3 ,p {
-    text-align: center;
-    color: $white;
-    padding: 0 0 15px 0;
-  }
-
-  h2 {
-    font-size: 60px;
-    line-height: 60px;
-
-    @media only screen and (min-width : 320px) and (max-width : 480px) {
-      font-size: 40px;
-      line-height: 40px;
+//HP Hero Full-Page Feature
+.hp_slideshow {
+  .section {
+	  text-align:center;
+	  background-size: cover;
+	  
+    h2,
+    h3,
+    p {
+      color: $white;
+      padding: 0 0 15px 0;
     }
-  }
-
-  h3 {
-    font-size: 30px;
-    line-height: 30px;
-
-    @media only screen and (min-width : 320px) and (max-width : 480px) {
+  
+    h1 {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  
+    h2 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  
+    h3 {
       font-size: 20px;
       line-height: 20px;
-      padding: 0 35px 15px 35px;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 21px;
+      margin: 0 auto;
+      max-width: 400px;
+      padding: 0;
     }
     
-    @media only screen and (min-width : 320px) and (max-width : 374px) {
-      font-size: 18px;
-      line-height: 18px;
-      padding: 0 25px 15px 25px;
-    }
-  }
-
-  p {
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0 auto;
-    max-width: 400px;
-    padding: 0;
-
-    @media only screen and (min-width : 320px) and (max-width : 480px) {
-     max-width: 250px;
-     font-size: 12px;
-     line-height: 16px;
-    }
-  }
-
-	.btn {
-		//margin: 5px 0 50px;
-		line-height: 40px;
-    height: 40px;
-    @include border-radius(20px);
-    background: $newcoIGTDarkOrange;
-    font-family: 'Verlag A', 'Verlag B', Arial, sans-serif;
-    margin-bottom: 10px;
-    @extend %transistion_in;
-
-    &:hover {
-      @extend %transistion_out;
-      background: $newcoIGTOrange;
-    }
-
-    &.roll_again {
-      background: $newcoIGTBlue;
-      margin-left: 5px;
-      margin-bottom: 0;
+    .slide {
+      background-size: cover;
       
-      @media only screen and (min-width : 320px) and (max-width : 374px) {
-        margin: 0;
+      .content_wrapper {
+        display: table;
+        margin: 0 auto;
+        padding: 0 40px;
+        height: 100%;
+        width: 100%;
+        max-width: 1040px;
+     
+        .content {
+          display: table-cell;
+          width: 100%;
+          height: 100%;
+          text-align: left;
+          vertical-align: middle;
+        }
       }
-
-      &:hover { background: $newcoIGTLightBlue; }
-      a:hover { color: $newcoIGTBlue !important; }
     }
-
-    &.loading {
-      background: $newcoIGTLightGrey !important;
-      cursor: wait !important;
-      pointer-events: none !important;
-
-      a { cursor: wait !important; }
+    
+    #slide1 { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
+    #slide2 {	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg); }
+    #slide3 { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg); }
+    #slide4 { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg); }
+    #slide5 {	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
+    #slide6 { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
+    
+    .fp-controlArrow { display: none; }
+    
+    .fp-slidesNav {
+      ul {
+        li {
+          a {
+            span {
+              background: $white;
+            }
+          }
+        }
+        
+        li:hover {
+          a {
+            span {
+              background: red;
+            }
+          }
+        }
+      }
     }
-
-		a {
-  		color: $white;
-      line-height: 40px;
-      height: 40px;
-      font-size: 18px;
-      padding: 0 20px;
-		}
-
-		/*--- Mobile portrait ---*/
-
-		@media only screen and (min-width : 320px) and (max-width : 600px) {
-	    line-height: 35px;
-      height: 35px;
-      @include border-radius(18px);
-
-		  a {
-        line-height: 35px;
-        height: 35px;
-        font-size: 16px;
-        padding: 0 15px;
-		  }
-		}
-	}
+  }
 }
 
-.section {
-	text-align:center;
-	background-size: cover;
-}
-
-.slide { background-size: cover; }
-
-#slide1 {
-	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg);
-}
-
-#slide2 {
-	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg);
-}
-
-#slide3 {
-	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg);
-}
-
-#slide4 {
-	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg);
-}
-
-#slide5 {
-	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg);
-}
-
-#slide6 {
-	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg);
-}
-
-.toggle-menu {
+.menu_dimmer {
+  z-index: 3;
   position: absolute;
-  z-index: 9999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .65);
 }

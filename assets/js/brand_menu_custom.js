@@ -5,9 +5,9 @@ var $form = $("#FooterForm");
 var $win = $(window);
 var $body = $("body");
 var $menu = $("nav");
-var $dimmer = $(".menu_dimmer2");
-var $menuLink = $("#header a.toggle-menu");
-var $menuCloseLink = $(".ar_icon_close a");
+var $dimmer = $(".menu_dimmer");
+var $menuLink = $(".nav_icon_open a");
+var $menuCloseLink = $(".nav_icon_close a");
 var $formLink = $("#FormLink");
 var $formCloseLink = $("#FormCloseLink");
 var $section2Sliders = $("#section2 .slider");
@@ -17,12 +17,13 @@ var initialChapterIndex;
 var $rotateDivs = $(".rotate_icon, .mobile_alert");
 
 // Menu Event Handlers:
-    //$("nav .chapter_nav a").click(chapterNav);
-    $dimmer.click(cleanup);
-    $menuLink.click(showMenuLink);
-    $menuCloseLink.click(function () { return hideMenu(); });
-		$(".toggle-menu").on("click",showMenu);
+//$("nav .chapter_nav a").click(chapterNav);
+$dimmer.click(cleanup);
+$menuLink.click(showMenuLink);
+$menuCloseLink.click(function () { return hideMenu(); });
 
+//$(".toggle-menu").on("click",showMenu);
+$menuLink.on("click",showMenu);
 
 // Menu:
 function menuIsHidden() {
@@ -45,9 +46,13 @@ function initialShowMenu() {
 
 function showMenu(skipDim) {
     showDimmmer(skipDim);
-    $menuLink.removeClass("nav_button").addClass("nav_button_open");
+    //(SP) additon for updated menu
+    $(".nav_icon_open").hide();
+    $(".nav_icon_close").show();
+    $dimmer.show();
+    //$menuLink.removeClass("nav_button").addClass("nav_button_open"); //not needed anymore (SP)
     $menu.animate({ "right": 0 }, 1000, "easeOutCubic");
-    $body.animate({ "right": 240 }, 1000, "easeOutCubic");
+    $body.animate({ "right": 280 }, 1000, "easeOutCubic");
     return false;
 }
 
@@ -56,11 +61,15 @@ function hideMenu(callback, skipDim) {
         return false;
     }
     var detailsCallback = function () {
-        $menuLink.removeClass("nav_button_open").addClass("nav_button");
+        //$menuLink.removeClass("nav_button_open").addClass("nav_button"); //not needed anymore (SP)
         execIfF(callback);
     }
     hideDimmer(null, skipDim);
-    $menu.animate({ "right": -240 }, 1000, "easeInCubic");
+    //(SP) additon for updated menu
+    $(".nav_icon_open").show();
+    $(".nav_icon_close").hide();
+    $dimmer.hide();
+    $menu.animate({ "right": -280 }, 1000, "easeInCubic");
     $body.animate({ "right": 0 }, 1000, "easeInCubic", detailsCallback);
     return false;
 }
