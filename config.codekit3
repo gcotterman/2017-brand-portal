@@ -181,8 +181,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/igt_logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -192,8 +192,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/igt_logo@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -271,6 +271,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/jquery.slimscroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/brand_menu_custom-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/brand_menu_custom-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1872,7 +1881,7 @@
 		"uL": 1
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0

@@ -1,1 +1,40 @@
 // -------------------- GLOBAL FOOTER
+
+.footer {
+  .row {
+    .footer_logo {
+      
+    }
+    
+    .igt_copyright {
+      color: $white;
+    }
+    
+    .igt_dot_com {
+      
+    }
+    
+    .brand_assistance {
+      
+    }
+  }
+}
+
+[data-index="home"] {
+  background: red;
+  .test {}
+  
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 110;
+    
+    .row {
+      .footer_logo { display: none; }
+      .igt_dot_com { display: none; }
+      .brand_assistance { display: none; }
+      hr { display: none; }
+    }
+  }
+}
