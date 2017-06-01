@@ -49,6 +49,7 @@ function showMenu(skipDim) {
     //(SP) additon for updated menu
     $(".nav_icon_open").hide();
     $(".nav_icon_close").show();
+    document.body.style.overflow = 'hidden';
     $dimmer.show();
     //$menuLink.removeClass("nav_button").addClass("nav_button_open"); //not needed anymore (SP)
     $menu.animate({ "right": 0 }, 1000, "easeOutCubic");
@@ -68,6 +69,7 @@ function hideMenu(callback, skipDim) {
     //(SP) additon for updated menu
     $(".nav_icon_open").show();
     $(".nav_icon_close").hide();
+    document.body.style.overflow = 'visible';
     $dimmer.hide();
     $menu.animate({ "right": -280 }, 1000, "easeInCubic");
     $body.animate({ "right": 0 }, 1000, "easeInCubic", detailsCallback);
