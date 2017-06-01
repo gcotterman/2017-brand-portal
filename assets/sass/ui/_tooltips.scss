@@ -1,6 +1,5 @@
 /* Tooltips */
 .ttip {
-	//@include tooltip($tt-min-width, $tt-bgcolor, $tt-position, $tt-align); DNU - MIXINS UNNECESSARY (SP)
   position: relative;
   cursor: pointer;
   
@@ -19,7 +18,6 @@
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
-    //@include transition(opacity 0.1s ease);
     @include opacity(0);
     pointer-events: none;
     right: 29px;
@@ -33,7 +31,6 @@
     position: absolute;
     top: 2px;
     right: 20px;
-    //@include transition(opacity 0.1s ease);
     @include opacity(0);
     pointer-events: none;
     border-left: 9px solid $white;
@@ -43,7 +40,6 @@
   
   &:hover:after,
   &:hover:before {
-    //@include transition(opacity 0.1s ease);
     @include opacity(1);
   }
   

@@ -1,1 +1,139 @@
-// -------------------- GLOBAL FOOTER
+.sub_header {
+  width: 100%;
+  min-height: 200px; //possibly look at new number
+  padding-bottom: 27.77777778%; //18:5 ratio (2880px by 800px)
+  background-size: cover;
+  position: relative;
+  
+  .sub_header_wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    .sub_header_container {
+      height: 100%;
+      width: 100%;
+      display: table;    
+  
+      h1 {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        color: $white;
+        font-size: 5vw;
+        position: relative;
+        
+        @include respond(portrait-tablets) {
+          vertical-align: bottom;
+          padding-bottom: 55px;
+        }
+        
+        @include respond(all-phones) {
+          vertical-align: bottom;
+          padding-bottom: 55px;
+        }
+      }
+    }
+  }
+}
+
+.sub_navigation_wrapper {
+  background: $newcoIGTBlue;
+  width: 100%;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  
+  .sub_navigation {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 90px;
+    position: relative;
+    
+    @include respond(portrait-tablets) { display: table; }
+    @include respond(all-phones) { display: table; }
+    
+    span {
+      color: $white;
+      font-size: 20px;
+      @extend %verlag_bold;
+      line-height: 90px;
+      padding-left: 20px;
+      
+      @include respond(portrait-tablets) { display: none; }
+      @include respond(all-phones) { display: none; }
+    }
+    
+    ul {
+      display: inline-block;
+      position: absolute;
+      top: 26px;
+      right: 20px;
+      font-size: 0;
+      
+      @include respond(portrait-tablets) {
+        display: table-cell;
+        text-align: center;
+        position: static;
+        vertical-align: middle;
+        padding: 0 25px;
+      }
+      
+      @include respond(all-phones) { 
+        display: table-cell;
+        text-align: center;
+        position: static;
+        vertical-align: middle;
+        padding: 0 25px;
+      }
+      
+      li {
+        display: inline-block;
+        margin: 0 0 0 5px;
+        
+        &:first-child { margin: 0; }
+        
+        a {
+          display: inline-block;
+          color: $white;
+          font-size: 16px;
+          line-height: 38px;
+          @extend %verlag_book;
+          padding: 0 15px;
+          -webkit-border-radius: 38px;
+          -moz-border-radius: 38px;
+          border-radius: 38px;
+          -webkit-transition: all 0.25s ease-in-out;
+          -moz-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
+          
+          @media only screen and (max-width: 680px) {
+            font-size: 12px;
+            line-height: 30px;
+            padding: 0 10px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+          }
+          
+          &.active,
+          &:hover {
+            background: $white;
+            color: $newcoIGTBlue;
+            -webkit-transition: all 0.25s ease-in-out;
+            -moz-transition: all 0.25s ease-in-out;
+            transition: all 0.25s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+[data-index="bodycopy"] {
+  padding: 50px 0;
+  
+  @include respond(all-phones) { padding: 25px 0; }
+}

@@ -6,7 +6,7 @@ header,
   position: absolute;
   z-index: 110;
   
-  .logo_wrpper {
+  .logo_wrapper {
     position: relative;
     width: 100%;
     //max-width: 1040px;
@@ -31,18 +31,6 @@ header,
       }
     }
   }
-}
-
-// iphone 5 small...
-@media only screen and (min-width : 320px) and (max-width : 374px) {
-	.header, .main_header {
-		height: 70px;
-	}
-
-	.logo_wrpper > .logo {
-		top: 10px !important;
-		left: 10px !important;
-	}
 }
 
 // ===== Main Menu =====
