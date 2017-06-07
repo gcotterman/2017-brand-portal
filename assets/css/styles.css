@@ -4359,8 +4359,6 @@ nav.cbp-spmenu {
     background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
   .hp_slideshow .section #slide6 {
     background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
-  .hp_slideshow .section .fp-controlArrow {
-    display: none; }
   .hp_slideshow .section .fp-slidesNav ul li a span {
     background: #ffffff; }
   .hp_slideshow .section .fp-slidesNav ul li:hover a span {

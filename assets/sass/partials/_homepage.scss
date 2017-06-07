@@ -78,7 +78,8 @@
     #slide5 {	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
     #slide6 { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
     
-    .fp-controlArrow { display: none; }
+    // RG to update JS to hide arrows (SP)
+    //.fp-controlArrow { display: none; }
     
     .fp-slidesNav {
       ul {
