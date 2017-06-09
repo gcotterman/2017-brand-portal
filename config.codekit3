@@ -158,6 +158,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/background_brandportal_navdots.png": {
+		"ft": 32768,
+		"iS": 1387,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_navdots.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_navdots@2x.png": {
+		"ft": 32768,
+		"iS": 1357,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_navdots@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/background_brandportal_section2.jpg": {
 		"ft": 16384,
 		"iS": 778981,
@@ -272,6 +294,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/jquery.fitvids-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.fullPage.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/jquery.fullPage-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1891,7 +1922,7 @@
 		"uL": 1
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0

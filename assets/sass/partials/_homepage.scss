@@ -119,7 +119,7 @@
     
     span {
       position: absolute;
-      right: -42px;
+      right: 240px;
       top: 50%;
       width: 120px;
       color: $white;
@@ -133,3 +133,219 @@
     }
   }
 }
+
+.hp_slide_navigation {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+  
+  .hp_slide_discover,
+  .hp_slide_actual {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    
+    li { padding: 0; }
+    
+    li.nav_spacer {
+      content:'';
+      width: 67px;
+      height: 5px;
+      margin: 0 30px;
+      background: url("#{$get-path-to-images}background_brandportal_navdots@2x.png") no-repeat 0 0;
+      background-size: 67px 5px;
+      display: inline-block;
+      position: relative;
+      top: 10%;
+      
+      @include respond(portrait-tablets) {
+        width: 15px;
+        margin: 0 10px;
+      }
+      
+      @include respond(all-phones) { display: none; }
+    }
+    
+    li.nav_item {
+      display: inline-block;
+      vertical-align: top;
+      width: auto;
+      position: relative;
+      
+      a {
+        display: block;
+        
+        .hp_slide_navigation_number {
+          display: block;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+          background: $white;
+          color: $newcoIGTDarkOrange;
+          font-size: 18px;
+          @extend %verlag_bold;
+          @extend %transistion_out;
+          
+          @include respond(all-phones) {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            margin: 0 2px;
+            font-size: 14px;
+          }
+        }
+
+        .hp_slide_navigation_title {
+          position: absolute;
+          display: none;
+          left: -30px;
+          width: 100px;
+          font-size: 10px;
+          color: $white;
+          opacity: 1;
+          @extend %transistion_in;
+          
+          @include respond(all-phones) { display: none; }
+          @include respond(portrait-tablets) { display: none; }
+          
+          &.is_hovering {
+            display: block;
+            font-size: 10px;
+            color: $white;
+            opacity: 1;
+          }
+        }     
+
+        &:hover {
+          .hp_slide_navigation_number {
+            background: $newcoIGTDarkOrange;
+            color: $white;
+          }         
+        }
+      }
+      
+      &.nav_active {
+        width: auto;
+        
+        a {
+          .hp_slide_navigation_number { display: none; }
+          
+          .hp_slide_navigation_title {
+            display: block;
+            opacity: 1;
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            margin: 0 auto;
+            text-align: center;
+            background: $newcoIGTDarkOrange;
+            color: $white;
+            font-size: 18px;
+            padding: 0 20px;
+            position: static;
+            left: auto;
+            @extend %verlag_bold;
+            @extend %transistion_out;
+            
+            @include respond(all-phones) {
+              height: 30px;
+              line-height: 30px;
+              -webkit-border-radius: 15px;
+              -moz-border-radius: 15px;
+              border-radius: 15px;
+              margin: 0 2px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .hp_slide_discover {   
+    li {
+      a {
+        display: inline-block;
+  
+        .hp_slide_navigation_title {
+          display: block;
+          opacity: 1;
+          width: auto;
+          height: 40px;
+          line-height: 40px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+          margin: 0 auto;
+          text-align: center;
+          background: $newcoIGTDarkOrange;
+          color: $white;
+          font-size: 18px;
+          padding: 0 20px;
+          position: static;
+          left: auto;
+          @extend %verlag_bold;
+          @extend %transistion_out;
+          
+          @include respond(all-phones) {
+            height: 30px;
+            line-height: 30px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            margin: 0 2px;
+            font-size: 14px;
+          }
+        }   
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

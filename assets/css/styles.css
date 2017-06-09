@@ -1660,7 +1660,9 @@ h1, h2, h3, h4, h5, h6, .sub_navigation_wrapper .sub_navigation ul li a, .pace .
   font-weight: 400;
   font-style: normal; }
 
-nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title, .sub_navigation_wrapper .sub_navigation span {
+nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title, .hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_number,
+.hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_number, .hp_slide_navigation .hp_slide_discover li.nav_item.nav_active a .hp_slide_navigation_title,
+.hp_slide_navigation .hp_slide_actual li.nav_item.nav_active a .hp_slide_navigation_title, .hp_slide_navigation .hp_slide_discover li a .hp_slide_navigation_title, .sub_navigation_wrapper .sub_navigation span {
   font-family: 'Verlag A', 'Verlag B', Arial, sans-serif;
   font-weight: 700;
   font-style: normal; }
@@ -4309,6 +4311,21 @@ nav.cbp-spmenu {
     [data-index="home"] .footer .row hr {
       display: none; }
 
+.hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_number,
+.hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_number, .hp_slide_navigation .hp_slide_discover li.nav_item.nav_active a .hp_slide_navigation_title,
+.hp_slide_navigation .hp_slide_actual li.nav_item.nav_active a .hp_slide_navigation_title, .hp_slide_navigation .hp_slide_discover li a .hp_slide_navigation_title {
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out; }
+
+.hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_title,
+.hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_title {
+  transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in; }
+
 .hp_slideshow .section {
   text-align: center;
   background-size: cover; }
@@ -4378,7 +4395,7 @@ nav.cbp-spmenu {
     height: 100%; }
     .menu_dimmer div span {
       position: absolute;
-      right: -42px;
+      right: 240px;
       top: 50%;
       width: 120px;
       color: #ffffff;
@@ -4389,6 +4406,163 @@ nav.cbp-spmenu {
       -o-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg); }
+
+.hp_slide_navigation {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  width: 100%; }
+  .hp_slide_navigation .hp_slide_discover,
+  .hp_slide_navigation .hp_slide_actual {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 0; }
+    .hp_slide_navigation .hp_slide_discover li,
+    .hp_slide_navigation .hp_slide_actual li {
+      padding: 0; }
+    .hp_slide_navigation .hp_slide_discover li.nav_spacer,
+    .hp_slide_navigation .hp_slide_actual li.nav_spacer {
+      content: '';
+      width: 67px;
+      height: 5px;
+      margin: 0 30px;
+      background: url("../images/background_brandportal_navdots@2x.png") no-repeat 0 0;
+      background-size: 67px 5px;
+      display: inline-block;
+      position: relative;
+      top: 10%; }
+      @media only screen and (min-width: 560px) and (max-width: 1023px) {
+        .hp_slide_navigation .hp_slide_discover li.nav_spacer,
+        .hp_slide_navigation .hp_slide_actual li.nav_spacer {
+          width: 15px;
+          margin: 0 10px; } }
+      @media only screen and (min-width: 319px) and (max-width: 560px) {
+        .hp_slide_navigation .hp_slide_discover li.nav_spacer,
+        .hp_slide_navigation .hp_slide_actual li.nav_spacer {
+          display: none; } }
+    .hp_slide_navigation .hp_slide_discover li.nav_item,
+    .hp_slide_navigation .hp_slide_actual li.nav_item {
+      display: inline-block;
+      vertical-align: top;
+      width: auto;
+      position: relative; }
+      .hp_slide_navigation .hp_slide_discover li.nav_item a,
+      .hp_slide_navigation .hp_slide_actual li.nav_item a {
+        display: block; }
+        .hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_number,
+        .hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_number {
+          display: block;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+          background: #ffffff;
+          color: #ff671f;
+          font-size: 18px; }
+          @media only screen and (min-width: 319px) and (max-width: 560px) {
+            .hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_number,
+            .hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_number {
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              -webkit-border-radius: 15px;
+              -moz-border-radius: 15px;
+              border-radius: 15px;
+              margin: 0 2px;
+              font-size: 14px; } }
+        .hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_title,
+        .hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_title {
+          position: absolute;
+          display: none;
+          left: -30px;
+          width: 100px;
+          font-size: 10px;
+          color: #ffffff;
+          opacity: 1; }
+          @media only screen and (min-width: 319px) and (max-width: 560px) {
+            .hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_title,
+            .hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_title {
+              display: none; } }
+          @media only screen and (min-width: 560px) and (max-width: 1023px) {
+            .hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_title,
+            .hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_title {
+              display: none; } }
+          .hp_slide_navigation .hp_slide_discover li.nav_item a .hp_slide_navigation_title.is_hovering,
+          .hp_slide_navigation .hp_slide_actual li.nav_item a .hp_slide_navigation_title.is_hovering {
+            display: block;
+            font-size: 10px;
+            color: #ffffff;
+            opacity: 1; }
+        .hp_slide_navigation .hp_slide_discover li.nav_item a:hover .hp_slide_navigation_number,
+        .hp_slide_navigation .hp_slide_actual li.nav_item a:hover .hp_slide_navigation_number {
+          background: #ff671f;
+          color: #ffffff; }
+      .hp_slide_navigation .hp_slide_discover li.nav_item.nav_active,
+      .hp_slide_navigation .hp_slide_actual li.nav_item.nav_active {
+        width: auto; }
+        .hp_slide_navigation .hp_slide_discover li.nav_item.nav_active a .hp_slide_navigation_number,
+        .hp_slide_navigation .hp_slide_actual li.nav_item.nav_active a .hp_slide_navigation_number {
+          display: none; }
+        .hp_slide_navigation .hp_slide_discover li.nav_item.nav_active a .hp_slide_navigation_title,
+        .hp_slide_navigation .hp_slide_actual li.nav_item.nav_active a .hp_slide_navigation_title {
+          display: block;
+          opacity: 1;
+          width: auto;
+          height: 40px;
+          line-height: 40px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+          margin: 0 auto;
+          text-align: center;
+          background: #ff671f;
+          color: #ffffff;
+          font-size: 18px;
+          padding: 0 20px;
+          position: static;
+          left: auto; }
+          @media only screen and (min-width: 319px) and (max-width: 560px) {
+            .hp_slide_navigation .hp_slide_discover li.nav_item.nav_active a .hp_slide_navigation_title,
+            .hp_slide_navigation .hp_slide_actual li.nav_item.nav_active a .hp_slide_navigation_title {
+              height: 30px;
+              line-height: 30px;
+              -webkit-border-radius: 15px;
+              -moz-border-radius: 15px;
+              border-radius: 15px;
+              margin: 0 2px;
+              font-size: 14px; } }
+  .hp_slide_navigation .hp_slide_discover li a {
+    display: inline-block; }
+    .hp_slide_navigation .hp_slide_discover li a .hp_slide_navigation_title {
+      display: block;
+      opacity: 1;
+      width: auto;
+      height: 40px;
+      line-height: 40px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      margin: 0 auto;
+      text-align: center;
+      background: #ff671f;
+      color: #ffffff;
+      font-size: 18px;
+      padding: 0 20px;
+      position: static;
+      left: auto; }
+      @media only screen and (min-width: 319px) and (max-width: 560px) {
+        .hp_slide_navigation .hp_slide_discover li a .hp_slide_navigation_title {
+          height: 30px;
+          line-height: 30px;
+          -webkit-border-radius: 15px;
+          -moz-border-radius: 15px;
+          border-radius: 15px;
+          margin: 0 2px;
+          font-size: 14px; } }
 
 .sub_header {
   width: 100%;
