@@ -1522,16 +1522,6 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip.left {
   left: 20px; }
 
-/*@mixin debug-support-matrix($experimental: true, $ie: true) {
-  @debug  $moz-$experimental-support-for-mozilla
-          $webkit-$experimental-support-for-webkit
-          $opera-$experimental-support-for-opera
-          $microsoft-$experimental-support-for-microsoft
-          $khtml-$experimental-support-for-khtml;
-  @debug  $ie6-$legacy-support-for-ie6
-          $ie7-$legacy-support-for-ie7
-          $ie8-$legacy-support-for-ie8;
-}*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1655,7 +1645,7 @@ html, body {
 .text-right {
   display: block !important; }
 
-h1, h2, h3, h4, h5, h6, .sub_navigation_wrapper .sub_navigation ul li a, .pace .pace-progress {
+h1, h2, h3, h4, h5, h6, .sub_navigation_wrapper .sub_navigation ul li a, .slideshow-container #alt-caption, .pace .pace-progress {
   font-family: 'Verlag A', 'Verlag B', Arial, sans-serif;
   font-weight: 400;
   font-style: normal; }
@@ -1923,6 +1913,9 @@ abbr {
     min-width: 0;
     padding-left: 0;
     padding-right: 0; }
+  .row.full-width {
+    max-width: 100%;
+    padding: 0; }
 
 /* To fix the grid into a different size, set max-width to your desired width */
 .column, .columns {
@@ -4681,6 +4674,58 @@ nav.cbp-spmenu {
   @media only screen and (min-width: 319px) and (max-width: 560px) {
     [data-index="bodycopy"] {
       padding: 25px 0; } }
+
+.slideshow-container {
+  position: relative; }
+  .slideshow-container .cycle-slideshow img {
+    width: 100%;
+    height: auto; }
+  .slideshow-container #alt-caption {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    z-index: 999; }
+    @media only screen and (max-width: 680px) {
+      .slideshow-container #alt-caption {
+        bottom: 10px;
+        font-size: 14px;
+        left: 10px; } }
+  .slideshow-container .nav_left {
+    z-index: 999;
+    position: absolute;
+    bottom: 40%;
+    left: 40px; }
+    @media only screen and (max-width: 680px) {
+      .slideshow-container .nav_left {
+        bottom: 45%;
+        left: 20px; } }
+    .slideshow-container .nav_left a {
+      color: #ffffff; }
+      .slideshow-container .nav_left a:before {
+        font-size: 50px;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); }
+        @media only screen and (max-width: 680px) {
+          .slideshow-container .nav_left a:before {
+            font-size: 30px; } }
+  .slideshow-container .nav_right {
+    z-index: 999;
+    position: absolute;
+    bottom: 40%;
+    right: 40px; }
+    @media only screen and (max-width: 680px) {
+      .slideshow-container .nav_right {
+        bottom: 45%;
+        right: 20px; } }
+    .slideshow-container .nav_right a {
+      color: #ffffff; }
+      .slideshow-container .nav_right a:before {
+        font-size: 50px;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); }
+        @media only screen and (max-width: 680px) {
+          .slideshow-container .nav_right a:before {
+            font-size: 30px; } }
 
 .pace {
   -webkit-pointer-events: none;

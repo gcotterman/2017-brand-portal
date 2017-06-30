@@ -137,3 +137,81 @@
   
   @include respond(all-phones) { padding: 25px 0; }
 }
+
+
+.slideshow-container {
+  position: relative;
+  
+  .cycle-slideshow {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  #alt-caption {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 20px;
+    @extend %verlag_book;
+    color: $white;
+    z-index: 999;
+    
+    @media only screen and (max-width: 680px) {
+      bottom: 10px;
+      font-size: 14px;
+      left: 10px;     
+    }
+  } 
+  
+  .nav_left {
+    z-index: 999;
+    position: absolute;
+    bottom: 40%;
+    left: 40px;
+    
+    @media only screen and (max-width: 680px) {
+      bottom: 45%;
+      left: 20px;     
+    }
+    
+    a {
+      color: $white;
+      
+      &:before {
+        font-size: 50px;
+        text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+        
+        @media only screen and (max-width: 680px) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  
+  .nav_right {
+    z-index: 999;
+    position: absolute;
+    bottom: 40%;
+    right: 40px;
+    
+    @media only screen and (max-width: 680px) {
+      bottom: 45%;
+      right: 20px;     
+    }
+    
+    a {
+      color: $white;
+      
+      &:before {
+        font-size: 50px;
+        text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+        
+        @media only screen and (max-width: 680px) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

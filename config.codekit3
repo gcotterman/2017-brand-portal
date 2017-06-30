@@ -207,6 +207,106 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/I_BrandGallery_1.jpg": {
+		"ft": 16384,
+		"iS": 271481,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_10.jpg": {
+		"ft": 16384,
+		"iS": 231310,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_2.jpg": {
+		"ft": 16384,
+		"iS": 277373,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_3.jpg": {
+		"ft": 16384,
+		"iS": 316531,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_4.jpg": {
+		"ft": 16384,
+		"iS": 402376,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_5.jpg": {
+		"ft": 16384,
+		"iS": 232200,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_6.jpg": {
+		"ft": 16384,
+		"iS": 220936,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_7.jpg": {
+		"ft": 16384,
+		"iS": 214594,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_8.jpg": {
+		"ft": 16384,
+		"iS": 191279,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/I_BrandGallery_9.jpg": {
+		"ft": 16384,
+		"iS": 142781,
+		"oA": 0,
+		"oAP": "\/assets\/images\/I_BrandGallery_9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/igt_logo.png": {
 		"ft": 32768,
 		"iS": 5631,
@@ -279,6 +379,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/javascript.fullPage.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.cycle2.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/jquery.cycle2.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1700,7 +1809,7 @@
 		"uL": 1
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1709,6 +1818,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/index_gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index_gallery.html",
 		"oF": 0
 		},
 	"\/index_sub.html": {
@@ -1723,16 +1838,70 @@
 		"oAP": "\/section_color.html",
 		"oF": 0
 		},
+	"\/section_composition.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_composition.html",
+		"oF": 0
+		},
+	"\/section_contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_contact.html",
+		"oF": 0
+		},
+	"\/section_FAQ.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_FAQ.html",
+		"oF": 0
+		},
+	"\/section_graphics.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_graphics.html",
+		"oF": 0
+		},
+	"\/section_imagery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_imagery.html",
+		"oF": 0
+		},
+	"\/section_links.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_links.html",
+		"oF": 0
+		},
 	"\/section_logo.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_logo.html",
 		"oF": 0
 		},
+	"\/section_motion.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_motion.html",
+		"oF": 0
+		},
+	"\/section_training.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_training.html",
+		"oF": 0
+		},
 	"\/section_typography.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_typography.html",
+		"oF": 0
+		},
+	"\/section_voice.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_voice.html",
 		"oF": 0
 		}
 	},
