@@ -266,3 +266,115 @@ abbr {
     page-break-after: avoid;
   }
 }
+
+
+
+
+
+// Brand Portal Styles
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+  padding: 0;  
+}
+
+h1 {
+  color: $newcoIGTOrange;
+  @extend %verlag_bold;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;                                                                                                                    
+}
+
+h3 {
+  color: $newcoIGTDarkOrange;
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  
+}
+
+ul {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

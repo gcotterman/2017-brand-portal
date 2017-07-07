@@ -136,6 +136,55 @@
   padding: 50px 0;
   
   @include respond(all-phones) { padding: 25px 0; }
+  
+  table {
+    border: none;
+    
+    thead {
+      background: none;
+      color: #0c51a1;
+      border-bottom: 2px solid #0c51a1;
+      
+      th { border: none; }
+    }
+    
+    td,
+    th {
+      padding: 5px;
+      font-size: 12px;
+      line-height: 14px;
+      vertical-align: middle;
+    }
+    
+    td {
+      font-size: 10px;
+      line-height: 12px;
+      padding: 5px;
+      vertical-align: middle;
+    }
+    
+    table {
+      margin: 0;
+      border: none;
+      width: auto;
+      
+      td {
+        font-weight: normal !important;
+        padding: 0 5px 0 0;
+        border: none;
+      }
+    }    
+  }
+
+  .color_circle {
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    display: inline-block;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+  }	
 }
 
 
