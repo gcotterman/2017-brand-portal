@@ -155,11 +155,11 @@ nav.cbp-spmenu {
   			
   			&.nav_active { background: red; }
   			
-        &[data-menuanchor=chapter_1] { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg); }
-        &[data-menuanchor=chapter_2] {	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg); }
-        &[data-menuanchor=chapter_3] { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg); }
-        &[data-menuanchor=chapter_4] { background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg); }
-        &[data-menuanchor=chapter_5] {	background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg); }
+        &[data-menuanchor=chapter_1] { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_home_sml.jpg);                }
+        &[data-menuanchor=chapter_2] { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_brand-id-system_sml.jpg);     }
+        &[data-menuanchor=chapter_3] { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_support_sml.jpg);             }
+        &[data-menuanchor=chapter_4] { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_downloads_sml.jpg);           }
+        &[data-menuanchor=chapter_5] { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_design-applications_sml.jpg); }
   		}
   	}
   }
