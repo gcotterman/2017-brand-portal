@@ -337,6 +337,12 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/Thumbs.db": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/Thumbs.db",
+		"oF": 0
+		},
 	"\/assets\/js\/brand_menu_custom.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1868,6 +1874,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_graphics.html",
+		"oF": 0
+		},
+	"\/section_homepage.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_homepage.html",
 		"oF": 0
 		},
 	"\/section_imagery.html": {

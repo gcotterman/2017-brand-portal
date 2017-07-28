@@ -4352,25 +4352,29 @@ nav.cbp-spmenu {
   text-align: center;
   background-size: cover; }
   .hp_slideshow .section h2,
-  .hp_slideshow .section h3,
   .hp_slideshow .section p {
     color: #ffffff;
-    padding: 0 0 15px 0; }
-  .hp_slideshow .section h1 {
-    font-size: 50px;
-    line-height: 50px; }
+    padding: 0 0 15px 0;
+    margin: 0;
+    text-align: center; }
   .hp_slideshow .section h2 {
     font-size: 30px;
-    line-height: 30px; }
-  .hp_slideshow .section h3 {
-    font-size: 20px;
-    line-height: 20px; }
+    line-height: 30px;
+    text-align: center; }
+    @media only screen and (min-width: 319px) and (max-width: 560px) {
+      .hp_slideshow .section h2 {
+        font-size: 22px;
+        line-height: 22px; } }
   .hp_slideshow .section p {
     font-size: 16px;
     line-height: 21px;
     margin: 0 auto;
     max-width: 400px;
     padding: 0; }
+    @media only screen and (max-width: 768px) and (min-width: 100px) {
+      .hp_slideshow .section p {
+        font-size: 14px;
+        line-height: 19px; } }
   .hp_slideshow .section .slide {
     background-size: cover; }
     .hp_slideshow .section .slide .content_wrapper {
@@ -4380,24 +4384,74 @@ nav.cbp-spmenu {
       height: 100%;
       width: 100%;
       max-width: 1040px; }
+      @media only screen and (min-width: 319px) and (max-width: 560px) {
+        .hp_slideshow .section .slide .content_wrapper {
+          padding: 0; } }
       .hp_slideshow .section .slide .content_wrapper .content {
         display: table-cell;
         width: 100%;
         height: 100%;
         text-align: left;
         vertical-align: middle; }
+        .hp_slideshow .section .slide .content_wrapper .content p.full_para {
+          width: auto !important;
+          max-width: 80% !important;
+          text-align: center !important;
+          font-size: 20px;
+          line-height: 25px;
+          margin-bottom: 10px; }
+          @media only screen and (max-width: 768px) and (min-width: 100px) {
+            .hp_slideshow .section .slide .content_wrapper .content p.full_para {
+              font-size: 16px;
+              line-height: 21px; } }
+        .hp_slideshow .section .slide .content_wrapper .content .row .four.columns {
+          text-align: center !important;
+          width: 31.41026% !important;
+          margin-left: 2.88462% !important;
+          float: left; }
+          .hp_slideshow .section .slide .content_wrapper .content .row .four.columns:first-child {
+            margin: 0 !important; }
+        .hp_slideshow .section .slide .content_wrapper .content .row .hp_slide_img {
+          font-size: 0; }
+          .hp_slideshow .section .slide .content_wrapper .content .row .hp_slide_img img {
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%; }
   .hp_slideshow .section #slide1 {
     background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_1.jpg); }
   .hp_slideshow .section #slide2 {
     background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_2.jpg); }
   .hp_slideshow .section #slide3 {
-    background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_1.jpg); }
+    background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_3.jpg); }
   .hp_slideshow .section #slide4 {
-    background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_2.jpg); }
+    background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_4.jpg); }
   .hp_slideshow .section #slide5 {
-    background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_1.jpg); }
-  .hp_slideshow .section #slide6 {
-    background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_2.jpg); }
+    background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_5.jpg); }
+  .hp_slideshow .section #slide1 p {
+    font-size: 2vw;
+    line-height: 1.25em; }
+    @media only screen and (min-width: 560px) and (max-width: 1023px) {
+      .hp_slideshow .section #slide1 p {
+        font-size: 3vw; } }
+    @media only screen and (min-width: 1023px) and (max-width: 1239px) {
+      .hp_slideshow .section #slide1 p {
+        font-size: 3vw; } }
+    @media only screen and (min-width: 319px) and (max-width: 560px) {
+      .hp_slideshow .section #slide1 p {
+        font-size: 5vw; } }
+  @media only screen and (max-width: 768px) and (min-width: 100px) {
+    .hp_slideshow .section #slide3 {
+      display: none; } }
+  @media only screen and (max-width: 768px) and (min-width: 100px) {
+    .hp_slideshow .section #slide4 {
+      display: none; } }
+  @media only screen and (max-width: 768px) and (min-width: 100px) {
+    .hp_slideshow .section #slide5 {
+      display: none; } }
+  .hp_slideshow .section #slide5 .hp_slide_img {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; }
   .hp_slideshow .section .fp-slidesNav ul li a span {
     background: #ffffff; }
   .hp_slideshow .section .fp-slidesNav ul li:hover a span {
@@ -4435,6 +4489,9 @@ nav.cbp-spmenu {
   left: 0;
   bottom: 50px;
   width: 100%; }
+  @media only screen and (max-width: 768px) and (min-width: 100px) {
+    .hp_slide_navigation {
+      bottom: 25px; } }
   .hp_slide_navigation .hp_slide_discover,
   .hp_slide_navigation .hp_slide_actual {
     height: 40px;

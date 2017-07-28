@@ -19,27 +19,25 @@
   .section {
 	  text-align:center;
 	  background-size: cover;
-	  
+	   
     h2,
-    h3,
     p {
       color: $white;
       padding: 0 0 15px 0;
+      margin: 0;
+      text-align: center;
     }
   
-    h1 {
-      font-size: 50px;
-      line-height: 50px;
-    }
   
     h2 {
       font-size: 30px;
       line-height: 30px;
-    }
-  
-    h3 {
-      font-size: 20px;
-      line-height: 20px;
+      text-align: center;
+      
+      @include respond(all-phones) {
+        font-size: 22px;
+        line-height: 22px;
+      }
     }
   
     p {
@@ -48,6 +46,11 @@
       margin: 0 auto;
       max-width: 400px;
       padding: 0;
+      
+      @media only screen and (max-width: 768px) and (min-width: 100px) {
+        font-size: 14px;
+        line-height: 19px;
+      }
     }
     
     .slide {
@@ -60,6 +63,8 @@
         height: 100%;
         width: 100%;
         max-width: 1040px;
+        
+        @include respond(all-phones) { padding: 0; }
      
         .content {
           display: table-cell;
@@ -67,16 +72,78 @@
           height: 100%;
           text-align: left;
           vertical-align: middle;
+          
+          //fixes para width defined above
+          p.full_para {
+            width: auto !important;
+            max-width: 80% !important;
+            text-align: center !important;
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 10px;
+                        
+            @media only screen and (max-width: 768px) and (min-width: 100px) {
+              font-size: 16px;
+              line-height: 21px;
+            }
+          }
+          
+          .row {          
+            .four.columns {
+              text-align: center !important;
+              width: 31.41026% !important;
+              margin-left: 2.88462% !important;
+              float: left;
+              
+              &:first-child { margin: 0 !important; }
+            }
+            
+            .hp_slide_img {
+              font-size: 0;
+              
+              img { 
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+              }
+            }
+          }
         }
       }
     }
     
     #slide1 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_1.jpg); }
     #slide2 {	background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_2.jpg); }
-    #slide3 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_1.jpg); }
-    #slide4 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_2.jpg); }
-    #slide5 {	background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_1.jpg); }
-    #slide6 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_2.jpg); }
+    #slide3 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_3.jpg); }
+    #slide4 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_4.jpg); }
+    #slide5 {	background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_5.jpg); }
+    
+    #slide1 {
+      p {
+        font-size: 2vw;
+        line-height: 1.25em;
+        
+        @include respond(portrait-tablets) { font-size: 3vw; }
+        @include respond(tablets) { font-size: 3vw; }
+        @include respond(all-phones) { font-size: 5vw; }
+      }
+    }
+
+    #slide2 {
+      
+    }
+    
+    #slide3 { @media only screen and (max-width: 768px) and (min-width: 100px) { display: none; } }
+    #slide4 { @media only screen and (max-width: 768px) and (min-width: 100px) { display: none; } }
+    #slide5 {
+      @media only screen and (max-width: 768px) and (min-width: 100px) { display: none; }
+      
+      .hp_slide_img {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+      }
+    }
     
     // RG to update JS to hide arrows (SP)
     //.fp-controlArrow { display: none; }
@@ -140,6 +207,8 @@
   left: 0;
   bottom: 50px;
   width: 100%;
+  
+  @media only screen and (max-width: 768px) and (min-width: 100px) { bottom: 25px; }
   
   .hp_slide_discover,
   .hp_slide_actual {
