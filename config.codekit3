@@ -1894,6 +1894,12 @@
 		"oAP": "\/section_homepage.html",
 		"oF": 0
 		},
+	"\/section_homepage_blank.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_homepage_blank.html",
+		"oF": 0
+		},
 	"\/section_imagery.html": {
 		"ft": 8192,
 		"oA": 2,
