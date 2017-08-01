@@ -129,12 +129,11 @@
     }
     
     //TEMP Slides
-    #slide1 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
-    #slide2 {	background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
-    #slide3 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
-    #slide4 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
-    #slide5 {	background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
-    
+    //#slide1 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    //#slide2 {	background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    //#slide3 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    //#slide4 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    //#slide5 {	background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
     //TESTING Slides
     //#slide1 { background-image: url(https://images.unsplash.com/photo-1488393660112-976f752342de?dpr=1&auto=format&fit=crop&w=1500&h=1424&q=80&cs=tinysrgb&crop=); }
     //#slide2 {	background-image: url(https://images.unsplash.com/photo-1495198551082-4499d2dd5312?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); }
@@ -154,15 +153,7 @@
       }
     }
 
-    #slide2 {
-      
-    }
-    
-    #slide3 { @media only screen and (max-width: 768px) and (min-width: 100px) { display: none; } }
-    #slide4 { @media only screen and (max-width: 768px) and (min-width: 100px) { display: none; } }
-    #slide5 {
-      @media only screen and (max-width: 768px) and (min-width: 100px) { display: none; }
-      
+    #slide5 {      
       .hp_slide_img {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;

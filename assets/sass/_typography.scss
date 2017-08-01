@@ -267,12 +267,7 @@ abbr {
   }
 }
 
-
-
-
-
 // Brand Portal Styles
-
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
   padding: 0;  
@@ -296,6 +291,8 @@ h3 {
 
 h4 {
   font-size: 20px;
+  margin: 0 0 5px 0;
+  color: $newcoIGTOrange;
 }
 
 h5 {
@@ -303,78 +300,19 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 12px;
+  margin: 0 0 5px 0;
+  color: $body-font-color;
 }
 
 p {
-  
-}
-
-ul {
+  line-height: 1.4em;
   margin-bottom: 20px;
-  padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ul,
+ul.disc {
+  margin: 0 0 20px 40px;
+  padding: 0;
+  line-height: 1.4em;
+}
