@@ -8,10 +8,10 @@ input[type="submit"] {
   //border: 1px solid #d5d5d5 !important; THIS IS NOT ON ANY OTHER BUTTON, REMOVED (SP)
   //border-color: $newcoIGTMediumBlue !important; THIS IS NOT ON ANY OTHER BUTTON, REMOVED (SP)
   border: none !important;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  background: $newcoIGTMediumBlue !important;
+  //-webkit-border-radius: 7px;
+  //-moz-border-radius: 7px;
+  //border-radius: 7px;
+  background: $newcoIGTDarkOrange !important;
   color: $white !important;
   font-weight: 300;
   font-size: 1rem;
@@ -20,6 +20,11 @@ input[type="submit"] {
   -webkit-appearance: none !important;
   
   &:hover { background: $newcoIGTYellow !important; }
+  
+  &.default {
+    background: $newcoIGTLightGrey !important;
+    &:hover { background: $newcoIGTMediumGrey !important; }
+  }
 }
 
 // Nice disabled state for all buttons that are disabled (used for support apps) (SP)

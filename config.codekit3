@@ -1822,6 +1822,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/video\/igt_slide_background.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/video\/igt_slide_background.mp4",
+		"oF": 0
+		},
 	"\/config.rb": {
 		"ft": 131072,
 		"oA": 0,
@@ -1862,6 +1868,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_contact.html",
+		"oF": 0
+		},
+	"\/section_downloads.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/section_downloads.html",
 		"oF": 0
 		},
 	"\/section_FAQ.html": {

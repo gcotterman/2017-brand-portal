@@ -53,24 +53,27 @@ nav.cbp-spmenu {
     
     .button_toggle  {
   		position: absolute;
-  		top: 22px;
-  		left: -62px;
+  		top: 20px; //was 22px
+  		left: -32px; //was -62px
   		display: block;
   		padding: 0;
   		width: 32px;
   		height: 32px;
   		opacity: 1;
-  		text-align: right;
+  		text-align: center;
+  		background: $newcoIGTDarkOrange;
+  		
+  		&:hover { background: $newcoIGTOrange; }
   		
   		@include respond(all-phones) {
-    	  top: 6px;
-    	  left: -46px;	
+    	  top: 0;
+    	  left: -32px; //was 46px	
       }
   
   	  a {
   		  display: block;
   			margin: 0;
-  			padding: 0;
+  		  padding: 2px 0 0 0;
   			width: 33px;
   			height: 32px;
   			background: none;

@@ -16,6 +16,22 @@
 
 //HP Hero Full-Page Feature
 .hp_slideshow {
+  
+  video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    //z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=) no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+      
   .section {
 	  text-align:center;
 	  background-size: cover;
@@ -112,16 +128,25 @@
       }
     }
     
-    #slide1 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_1.jpg); }
-    #slide2 {	background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_2.jpg); }
-    #slide3 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_3.jpg); }
-    #slide4 { background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_4.jpg); }
-    #slide5 {	background-image: url(/IGTSitecore/BrandAssets/images/background_brandportal_hp_slide_5.jpg); }
+    //TEMP Slides
+    #slide1 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    #slide2 {	background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    #slide3 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    #slide4 { background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    #slide5 {	background-image: url(/IGTSitecore/BrandAssets/images/background_transparent.gif); }
+    
+    //TESTING Slides
+    //#slide1 { background-image: url(https://images.unsplash.com/photo-1488393660112-976f752342de?dpr=1&auto=format&fit=crop&w=1500&h=1424&q=80&cs=tinysrgb&crop=); }
+    //#slide2 {	background-image: url(https://images.unsplash.com/photo-1495198551082-4499d2dd5312?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); }
+    //#slide3 { background-image: url(https://images.unsplash.com/photo-1443557661966-8b4795a6f62c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=); }
+    //#slide4 { background-image: url(https://images.unsplash.com/photo-1480374178950-b2c449be122e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=); }
+    //#slide5 {	background-image: url(https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=); }
     
     #slide1 {
       p {
         font-size: 2vw;
         line-height: 1.25em;
+        //z-index: 50;
         
         @include respond(portrait-tablets) { font-size: 3vw; }
         @include respond(tablets) { font-size: 3vw; }

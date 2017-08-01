@@ -22,7 +22,7 @@ form {
 
   fieldset {
     @include rhythm-borders(1px,1,$norm,solid);
-    @include border-radius($button-radius);
+    //@include border-radius($button-radius);
     border-color: darken($default-color, 10%);
     margin: 18px 0;
     
@@ -56,18 +56,18 @@ form {
     font-weight: $font-weight-light;
     @include font-size($norm);
     @include box-shadow(none);
-    color: $newcoIGTDarkBlue;
+    color: $body-font-color;
   }
   .input {
     position: relative;
     padding: 0 10px;
     background: #fff;
     border: 1px solid darken($default-color, 10%);
-    color: $newcoIGTDarkBlue;
+    color: $body-font-color;
     @include line-and-height(height-calc($norm));
     @include font-size($norm);
     //@include border-radius(4px);
-    @include border-radius($button-radius);
+    //@include border-radius($button-radius);
     &.search {
       @include line-and-height(height-calc($norm));
       @include shape(oval);
@@ -80,7 +80,7 @@ form {
 }
 
 input, .input {
-  color: $newcoIGTDarkBlue;
+  color: $body-font-color;
   @each $width in $field-sizes {
     &.#{nth($width, 1)} {
       @include input-size(#{nth($width, 1)});
@@ -352,14 +352,21 @@ label + {
   position: relative;
   width: auto;
   display: inline-block;
-  margin: 0 0 2px 1.2%;
+  //margin: 0 0 2px 1.2%;
   overflow: hidden;
   border: 1px solid darken($default-color, 5%);
-  @include border-radius(4px);
+  //@include border-radius(4px);
   font-family: $font-family;
   font-weight: $font-weight-semibold;
   height: auto;
-  @include background-image(linear-gradient(lighten($default-color, 20%), $default-color));
+  //@include background-image(linear-gradient(lighten($default-color, 20%), $default-color));
+  margin: 0;
+  width: 100%;
+  background: $white;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0px;
+  
   &:after {
     content: '#{$fa-var-caret-down}';
     font-family: $icons;
@@ -380,7 +387,6 @@ label + {
     width: 135%;
     height: 34px;
     padding: 6px 45px 6px 15px;
-    color: $body-font-color;
     border: none;
     background: transparent;
     outline: none;
@@ -388,8 +394,14 @@ label + {
     z-index: 99;
     cursor: pointer;
     @include font-size($norm);
+    font-family: $font-family;
+    color: $body-font-color;
   }
   select::-ms-expand {
     display: none;
   }
 }
+
+
+label.error { display: none !important; }
+.input.error { border-color: $danger-color; }
