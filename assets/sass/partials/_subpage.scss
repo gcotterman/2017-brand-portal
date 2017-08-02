@@ -199,6 +199,26 @@
   }	
 }
 
+.font_v-extra-light,
+.font_v-light,
+.font_v-book,
+.font_v-bold,
+.font_v-extra-light-italic,
+.font_v-light-italic,
+.font_v-book-italic,
+.font_v-bold-italic,
+.font_a-regular,
+.font_a-bold,
+.font_a-regular-italic,
+.font_a-bold-italic,
+.font_l-light,
+.font_l-bold,
+.font_l-light-italic,
+.font_l-bold-italic {
+  background: red;
+}
+  
+
 .font_v-extra-light {
   font-weight: 200;
   font-style: normal;
@@ -418,5 +438,7 @@
     padding: 10px;
     
     p { margin: 0; }
+    p.padding { padding: 20px 0 0 0; }
+    ul { margin: 20px 0 0 40px; }
   }
 }

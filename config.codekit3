@@ -31,6 +31,16 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/assets\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/fonts\/fontawesome\/fontawesome-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -148,6 +158,229 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/background_brandportal_brand-id-system.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_brand-id-system.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_brand-id-system_sml.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_brand-id-system_sml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_design-applications.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_design-applications.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_design-applications_sml.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_design-applications_sml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_downloads.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_downloads.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_downloads_sml.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_downloads_sml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_home_sml.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_home_sml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_1_1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_1_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_1_2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_1_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_1_3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_1_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_2_1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_2_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_2_2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_2_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_2_3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_2_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_3_1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_3_1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_3_2.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_3_2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_img_3_3.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_img_3_3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_slide_1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_slide_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_slide_2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_slide_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_slide_2_img.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_slide_2_img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_slide_3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_slide_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_slide_4.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_slide_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_hp_slide_5.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_hp_slide_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/background_brandportal_navdots.png": {
 		"ft": 32768,
 		"iS": 1387,
@@ -180,13 +413,763 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/background_brandportal_support.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_support.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_brandportal_support_sml.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_brandportal_support_sml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_igtslides.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_igtslides.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/background_loading.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_loading.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/background_loading_bottom.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_loading_bottom.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/background_loading_top.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_loading_top.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/background_transparent.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/background_transparent.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_color_1.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_color_1.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_color_2.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_color_2.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_color_3.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_color_3.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_composition_1.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_composition_1.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_composition_2.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_composition_2.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_composition_3.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_composition_3.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_graphics_1.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_1.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_graphics_10.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_11.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_12.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_13.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_14.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_15.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_2.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_2.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_graphics_3.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_3.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_graphics_4.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_4.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_graphics_5.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_5.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_graphics_6.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_7.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_8.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_graphics_9.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_graphics_9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_imagery_1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_imagery_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_imagery_2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_imagery_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_imagery_3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_imagery_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_imagery_4.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_imagery_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_imagery_5.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_imagery_5.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_imagery_6.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_imagery_6.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_1.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_1.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_10.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_10.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_11.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_11.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_12.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_12.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_13.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_13.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_14.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_14.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_15.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/brandimage_logo_16.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_16.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_17.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_17.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_18.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_18.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_2.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_2.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_3.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_3.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_4.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_4.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_5.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_5.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_6.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_6.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_7.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_7.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_8.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_8.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_logo_9.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_logo_9.gif",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/assets\/images\/brandimage_motion_gyro.gif": {
 		"ft": 4194304,
-		"iS": 2104851,
+		"iS": 688158,
 		"oA": 0,
 		"oAP": "\/assets\/images\/brandimage_motion_gyro.gif",
 		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/brandimage_motion_vari_1.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_1.gif",
+		"oF": 0,
 		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_10.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_10.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_11.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_11.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_12.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_12.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_13.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_13.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_14.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_14.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_15.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_15.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_16.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_16.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_17.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_17.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_18.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_18.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_2.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_2.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_3.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_3.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_4.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_4.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_5.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_5.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_6.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_6.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_7.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_7.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_8.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_8.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_motion_vari_9.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_motion_vari_9.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_1.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_1.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_10.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_10.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_11.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_11.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_12.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_12.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_13.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_13.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_14.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_14.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_15.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_15.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_16.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_16.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_17.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_17.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_18.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_18.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_2.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_2.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_3.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_3.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_4.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_4.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_5.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_5.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_6.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_6.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_7.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_7.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_8.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_8.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/brandimage_typography_9.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/brandimage_typography_9.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/BUILD_Homepage_Images.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/BUILD_Homepage_Images.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/images\/favicon.ico": {
 		"ft": 8192,
@@ -217,7 +1200,7 @@
 		},
 	"\/assets\/images\/I_BrandGallery_10.jpg": {
 		"ft": 16384,
-		"iS": 231310,
+		"iS": 253068,
 		"oA": 0,
 		"oAP": "\/assets\/images\/I_BrandGallery_10.jpg",
 		"oF": 0,
@@ -307,23 +1290,23 @@
 		},
 	"\/assets\/images\/igt_logo.png": {
 		"ft": 32768,
-		"iS": 5631,
+		"iS": 5539,
 		"oA": 0,
 		"oAP": "\/assets\/images\/igt_logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/igt_logo@2x.png": {
 		"ft": 32768,
-		"iS": 11376,
+		"iS": 11321,
 		"oA": 0,
 		"oAP": "\/assets\/images\/igt_logo@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1819,7 +2802,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
