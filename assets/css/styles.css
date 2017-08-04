@@ -4208,6 +4208,17 @@ nav.cbp-spmenu {
                 display: block; }
               nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a:hover .menu_subtitle {
                 display: block; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+              nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a {
+                background: rgba(0, 0, 0, 0.65); }
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title,
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_subtitle {
+                  display: block !important; }
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_title {
+                  font-size: 20px; }
+                nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a .menu_subtitle {
+                  font-size: 12px;
+                  line-height: 12px; } }
             @media only screen and (min-width: 319px) and (max-width: 560px) {
               nav.cbp-spmenu .nav_wrapper ul li.chapter_nav a {
                 background: rgba(0, 0, 0, 0.65); }
@@ -4426,7 +4437,11 @@ nav.cbp-spmenu {
           @media only screen and (max-width: 768px) and (min-width: 100px) {
             .hp_slideshow .section .slide .content_wrapper .content p.full_para {
               font-size: 16px;
-              line-height: 21px; } }
+              line-height: 21px;
+              display: block !important; } }
+        @media only screen and (max-width: 768px) and (min-width: 100px) {
+          .hp_slideshow .section .slide .content_wrapper .content p {
+            display: none; } }
         .hp_slideshow .section .slide .content_wrapper .content .row .four.columns {
           text-align: center !important;
           width: 31.41026% !important;
@@ -4452,6 +4467,9 @@ nav.cbp-spmenu {
     @media only screen and (min-width: 319px) and (max-width: 560px) {
       .hp_slideshow .section #slide1 p {
         font-size: 5vw; } }
+    @media only screen and (max-width: 768px) and (min-width: 100px) {
+      .hp_slideshow .section #slide1 p {
+        display: block; } }
   .hp_slideshow .section #slide5 .hp_slide_img {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;

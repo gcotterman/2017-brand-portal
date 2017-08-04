@@ -129,7 +129,7 @@ nav.cbp-spmenu {
       				.menu_subtitle { display: block; }
     				}
     				
-    				@include respond(all-phones) {
+    				@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
       				background: rgba(0, 0, 0, .65);  
       				
               .menu_title,
@@ -144,6 +144,22 @@ nav.cbp-spmenu {
         				line-height: 12px;
         		  }
       		  }
+      		  
+      		  @include respond(all-phones) {
+      				background: rgba(0, 0, 0, .65);  
+      				
+              .menu_title,
+      				.menu_subtitle {
+        			  display: block !important;	
+      				}
+      				
+      				.menu_title { font-size: 20px; }
+      				
+      				.menu_subtitle {
+        				font-size: 12px;
+        				line-height: 12px;
+        		  }
+        		}
     			}
   			}
   

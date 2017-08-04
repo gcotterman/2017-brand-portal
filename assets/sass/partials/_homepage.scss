@@ -101,7 +101,12 @@
             @media only screen and (max-width: 768px) and (min-width: 100px) {
               font-size: 16px;
               line-height: 21px;
+              display: block !important;
             }
+          }
+          
+          @media only screen and (max-width: 768px) and (min-width: 100px) {
+            p { display: none; }
           }
           
           .row {          
@@ -150,6 +155,10 @@
         @include respond(portrait-tablets) { font-size: 3vw; }
         @include respond(tablets) { font-size: 3vw; }
         @include respond(all-phones) { font-size: 5vw; }
+        
+        @media only screen and (max-width: 768px) and (min-width: 100px) {
+          display: block;
+        }
       }
     }
 
