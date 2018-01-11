@@ -7,9 +7,10 @@
 		"uuidString": "ED03FDED-5E31-4279-BFCD-FC7285FE1577"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
@@ -42,6 +43,7 @@
 		"oS": 3
 		},
 	"\/assets\/fonts\/fontawesome\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome\/fontawesome-webfont.eot",
@@ -58,24 +60,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/fontawesome\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/footable\/footable.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/footable\/footable.eot",
@@ -92,12 +98,14 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/footable\/footable.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/footable\/footable.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/footable\/footable.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/footable\/footable.woff",
@@ -1172,6 +1180,7 @@
 		"q": 100
 		},
 	"\/assets\/images\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/favicon.ico",
@@ -1311,6 +1320,7 @@
 		"q": 100
 		},
 	"\/assets\/images\/Thumbs.db": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/Thumbs.db",
@@ -1318,6 +1328,7 @@
 		},
 	"\/assets\/js\/brand_menu_custom.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/brand_menu_custom-min.js",
@@ -1327,6 +1338,7 @@
 		},
 	"\/assets\/js\/fullpage_plugin_custom.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/fullpage_plugin_custom-min.js",
@@ -1336,6 +1348,7 @@
 		},
 	"\/assets\/js\/gumby.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/gumby.min-min.js",
@@ -1345,6 +1358,7 @@
 		},
 	"\/assets\/js\/gumby.retina.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/gumby.retina-min.js",
@@ -1354,6 +1368,7 @@
 		},
 	"\/assets\/js\/javascript.fullPage.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/javascript.fullPage-min.js",
@@ -1363,6 +1378,7 @@
 		},
 	"\/assets\/js\/javascript.fullPage.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/javascript.fullPage.min-min.js",
@@ -1372,6 +1388,7 @@
 		},
 	"\/assets\/js\/jquery.cycle2.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/jquery.cycle2.min-min.js",
@@ -1381,6 +1398,7 @@
 		},
 	"\/assets\/js\/jquery.fitvids.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/jquery.fitvids-min.js",
@@ -1390,6 +1408,7 @@
 		},
 	"\/assets\/js\/jquery.fullPage.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/jquery.fullPage-min.js",
@@ -1399,6 +1418,7 @@
 		},
 	"\/assets\/js\/jquery.slimscroll.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/jquery.slimscroll-min.js",
@@ -1408,6 +1428,7 @@
 		},
 	"\/assets\/js\/min\/brand_menu_custom-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/brand_menu_custom-min-min.js",
@@ -1417,6 +1438,7 @@
 		},
 	"\/assets\/js\/modernizr-2.6.2.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/modernizr-2.6.2.min-min.js",
@@ -1426,6 +1448,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/gumby-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby-ck-min.js",
@@ -1435,6 +1458,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/gumby.init-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.init-ck-min.js",
@@ -1444,6 +1468,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/gumby.init.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.init-min.js",
@@ -1453,6 +1478,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/gumby.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby-min.js",
@@ -1462,6 +1488,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/gumby.min-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.min-ck-min.js",
@@ -1471,6 +1498,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/gumby.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.min-min.js",
@@ -1480,6 +1508,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/gumby.shuffle.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/gumby.shuffle-min.js",
@@ -1489,6 +1518,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/jquery-1.10.1.min-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-1.10.1.min-ck-min.js",
@@ -1498,6 +1528,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/jquery-1.10.1.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-1.10.1.min-min.js",
@@ -1506,6 +1537,7 @@
 		"tS": 0
 		},
 	"\/assets\/js\/OLD\/libs\/jquery-1.10.1.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/OLD\/libs\/jquery-1.10.1.min.map",
@@ -1513,6 +1545,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/jquery-1.7.1.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-1.7.1.min-min.js",
@@ -1522,6 +1555,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/jquery-2.0.2.min-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-2.0.2.min-ck-min.js",
@@ -1531,6 +1565,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/jquery-2.0.2.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery-2.0.2.min-min.js",
@@ -1539,6 +1574,7 @@
 		"tS": 0
 		},
 	"\/assets\/js\/OLD\/libs\/jquery-2.0.2.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/OLD\/libs\/jquery-2.0.2.min.map",
@@ -1546,6 +1582,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/jquery.mobile.custom.min-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery.mobile.custom.min-ck-min.js",
@@ -1555,6 +1592,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/jquery.mobile.custom.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/jquery.mobile.custom.min-min.js",
@@ -1564,6 +1602,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/min\/jquery-1.7.1.min-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/min\/jquery-1.7.1.min-min-min.js",
@@ -1573,6 +1612,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/modernizr-2.6.2.min-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/modernizr-2.6.2.min-ck-min.js",
@@ -1582,6 +1622,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/modernizr-2.6.2.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/min\/modernizr-2.6.2.min-min.js",
@@ -1591,6 +1632,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.checkbox-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.checkbox-ck-min.js",
@@ -1600,6 +1642,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.checkbox.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.checkbox-min.js",
@@ -1609,6 +1652,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.fixed-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.fixed-ck-min.js",
@@ -1618,6 +1662,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.fixed.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.fixed-min.js",
@@ -1627,6 +1672,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.navbar-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.navbar-ck-min.js",
@@ -1636,6 +1682,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.navbar.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.navbar-min.js",
@@ -1645,6 +1692,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.radiobtn-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.radiobtn-ck-min.js",
@@ -1654,6 +1702,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.radiobtn.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.radiobtn-min.js",
@@ -1663,6 +1712,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.retina-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.retina-ck-min.js",
@@ -1672,6 +1722,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.retina.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.retina-min.js",
@@ -1681,6 +1732,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.skiplink-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.skiplink-ck-min.js",
@@ -1690,6 +1742,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.skiplink.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.skiplink-min.js",
@@ -1699,6 +1752,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.tabs-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.tabs-ck-min.js",
@@ -1708,6 +1762,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.tabs.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.tabs-min.js",
@@ -1717,6 +1772,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.toggleswitch-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.toggleswitch-ck-min.js",
@@ -1726,6 +1782,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/gumby.toggleswitch.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/gumby.toggleswitch-min.js",
@@ -1735,6 +1792,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/jquery-ui.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/jquery-ui.min-min.js",
@@ -1744,6 +1802,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/jquery.validation-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/jquery.validation-ck-min.js",
@@ -1753,6 +1812,7 @@
 		},
 	"\/assets\/js\/OLD\/libs\/ui\/jquery.validation.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/libs\/ui\/min\/jquery.validation-min.js",
@@ -1762,6 +1822,7 @@
 		},
 	"\/assets\/js\/OLD\/min\/jquery.dlmenu-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/min\/min\/jquery.dlmenu-ck-min.js",
@@ -1771,6 +1832,7 @@
 		},
 	"\/assets\/js\/OLD\/min\/modernizr.custom-ck.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/min\/min\/modernizr.custom-ck-min.js",
@@ -1780,6 +1842,7 @@
 		},
 	"\/assets\/js\/OLD\/min\/pace-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/min\/min\/pace-min-min.js",
@@ -1789,6 +1852,7 @@
 		},
 	"\/assets\/js\/OLD\/respond.src.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/OLD\/min\/respond.src-min.js",
@@ -1798,6 +1862,7 @@
 		},
 	"\/assets\/js\/pace.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/pace-min.js",
@@ -1807,6 +1872,7 @@
 		},
 	"\/assets\/js\/pace.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/pace.min-min.js",
@@ -2101,6 +2167,7 @@
 		"uL": 1
 		},
 	"\/assets\/sass\/extensions\/modular-scale\/lib\/modular-scale.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/sass\/extensions\/modular-scale\/lib\/modular-scale.rb",
@@ -2796,120 +2863,140 @@
 		"uL": 1
 		},
 	"\/assets\/video\/igt_slide_background.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/igt_slide_background.mp4",
 		"oF": 0
 		},
 	"\/config.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/index_gallery.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index_gallery.html",
 		"oF": 0
 		},
 	"\/index_sub.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index_sub.html",
 		"oF": 0
 		},
 	"\/section_color.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_color.html",
 		"oF": 0
 		},
 	"\/section_composition.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_composition.html",
 		"oF": 0
 		},
 	"\/section_contact.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_contact.html",
 		"oF": 0
 		},
 	"\/section_downloads.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_downloads.html",
 		"oF": 0
 		},
 	"\/section_FAQ.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_FAQ.html",
 		"oF": 0
 		},
 	"\/section_graphics.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_graphics.html",
 		"oF": 0
 		},
 	"\/section_homepage.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_homepage.html",
 		"oF": 0
 		},
 	"\/section_homepage_blank.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_homepage_blank.html",
 		"oF": 0
 		},
 	"\/section_imagery.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_imagery.html",
 		"oF": 0
 		},
 	"\/section_links.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_links.html",
 		"oF": 0
 		},
 	"\/section_logo.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_logo.html",
 		"oF": 0
 		},
 	"\/section_motion.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_motion.html",
 		"oF": 0
 		},
 	"\/section_training.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_training.html",
 		"oF": 0
 		},
 	"\/section_typography.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_typography.html",
 		"oF": 0
 		},
 	"\/section_voice.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/section_voice.html",
@@ -2924,7 +3011,7 @@
 	"creationDate": 517275141,
 	"displayValue": "2017 Brand Portal",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/images\/apple-touch-icon.png"
+	"iconImageName": "meme-ron"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3328,6 +3415,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -3335,6 +3426,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -3432,6 +3527,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -3448,9 +3547,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -3508,9 +3615,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -3540,6 +3647,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -3549,14 +3660,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3579,6 +3682,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -4124,6 +4231,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -4192,6 +4303,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -4231,6 +4346,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -4644,7 +4763,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -4677,6 +4797,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -4718,7 +4839,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -4750,13 +4872,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -4765,7 +4887,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4785,7 +4908,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4813,7 +4937,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -4864,6 +4989,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
