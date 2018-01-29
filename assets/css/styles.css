@@ -4825,6 +4825,11 @@ nav.cbp-spmenu {
         font-weight: normal !important;
         padding: 0 5px 0 0;
         border: none; }
+  [data-index="bodycopy"] ul {
+    margin: 0 0 20px 40px;
+    padding: 0;
+    line-height: 1.4em;
+    list-style: disc outside; }
   [data-index="bodycopy"] .color_circle {
     height: 26px;
     width: 26px;
